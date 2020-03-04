@@ -1,0 +1,8 @@
+SiiNunit
+{
+accessory_engine_data : dc16_500.scania.streamline.engine
+{
+	unlock: $$AUTO$$
+
+}
+}

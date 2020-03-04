@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_engine_data : mx11_330.daf.xf_euro6.engine
+{
+	unlock: $$AUTO$$
+}
+}

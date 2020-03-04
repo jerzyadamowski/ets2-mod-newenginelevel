@@ -1,0 +1,8 @@
+SiiNunit
+{
+accessory_engine_data : dc13_410.scania.r_2016.engine
+{
+	unlock: $$AUTO$$
+
+}
+}

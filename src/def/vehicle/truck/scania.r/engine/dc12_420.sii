@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_engine_data : dc12_420.scania.r.engine
+{
+	unlock: $$AUTO$$
+}
+}

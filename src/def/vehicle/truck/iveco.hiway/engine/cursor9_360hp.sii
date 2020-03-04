@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_engine_data : cur9_360.iveco.hiway.engine
+{
+	unlock: $$AUTO$$
+}
+}

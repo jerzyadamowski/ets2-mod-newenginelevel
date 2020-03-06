@@ -4,7 +4,7 @@ accessory_engine_data : dc16_650.scania.r_2016.engine
 {
 	name: "DC16 118 650 Euro 6 V8"
 	price: 27300
-	unlock: 20
+unlock: ##AUTO##
 	info[]: "650 @@hp@@ (478@@kw@@)"
 	info[]: "3@@dg@@300 @@nm@@"
 	info[]: "950-1@@dg@@350 @@rpm@@"

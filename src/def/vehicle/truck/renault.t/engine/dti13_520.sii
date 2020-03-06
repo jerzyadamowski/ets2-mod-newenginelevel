@@ -4,7 +4,7 @@ accessory_engine_data : dti13_520.renault.t.engine
 {
 	name: "DTI 13 520 Euro 6"
 	price: 19800
-	unlock: 18
+unlock: ##AUTO##
 	info[]: "520 @@hp@@ (382@@kw@@)"
 	info[]: "2@@dg@@550 @@nm@@"
 	info[]: "1@@dg@@100-1@@dg@@430 @@rpm@@"

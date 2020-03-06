@@ -4,7 +4,7 @@ accessory_engine_data : cur10_420.iveco.stralis.engine
 {
 	name: "Cursor 10 420"
 	price: 12900
-	unlock: 10
+unlock: ##AUTO##
 	info[]: "420 @@hp@@ (309@@kw@@)"
 	info[]: "1@@dg@@900 @@nm@@"
 	info[]: "1@@dg@@050-1@@dg@@550 @@rpm@@"

@@ -4,7 +4,7 @@ accessory_engine_data : d2868_500.man.tgx.engine
 {
 	name: "D2868 500"
 	price: 19980
-	unlock: 16
+unlock: ##AUTO##
 	info[]: "680 @@hp@@ (500@@kw@@)"
 	info[]: "3@@dg@@000 @@nm@@"
 	info[]: "1@@dg@@100-1@@dg@@400 @@rpm@@"

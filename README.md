@@ -1,0 +1,24 @@
+## Setup develop environment.
+
+Powershell support
+
+With admin privileges run:
+
+```
+./src/install.ps1
+```
+
+At end you should get functions supported by module `psexcel`
+
+
+## Modify parameters in NewEngineFormulas.xlsx
+
+## Fill output files with new unlock level
+
+```
+./src/update.ps1
+```
+
+## Then zip entire directory NewEngineLevel
+
+## Alter extension from `zip` to `scs`

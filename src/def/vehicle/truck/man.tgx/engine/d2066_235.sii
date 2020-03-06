@@ -2,6 +2,6 @@ SiiNunit
 {
 accessory_engine_data : d2066_235.man.tgx.engine
 {
-	unlock: $$AUTO$$
+	unlock: ##AUTO##
 }
 }

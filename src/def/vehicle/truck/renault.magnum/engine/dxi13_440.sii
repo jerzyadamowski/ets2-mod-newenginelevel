@@ -2,6 +2,6 @@ SiiNunit
 {
 accessory_engine_data : dxi13_440.renault.magnum.engine
 {
-	unlock: $$AUTO$$
+	unlock: ##AUTO##
 }
 }

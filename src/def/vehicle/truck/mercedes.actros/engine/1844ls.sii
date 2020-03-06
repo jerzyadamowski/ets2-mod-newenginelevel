@@ -2,6 +2,6 @@ SiiNunit
 {
 accessory_engine_data : 1844ls.mercedes.actros.engine
 {
-	unlock: $$AUTO$$
+	unlock: ##AUTO##
 }
 }

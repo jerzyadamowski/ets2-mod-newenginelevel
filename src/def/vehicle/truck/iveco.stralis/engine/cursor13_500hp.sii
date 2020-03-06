@@ -2,6 +2,6 @@ SiiNunit
 {
 accessory_engine_data : cur13_500.iveco.stralis.engine
 {
-	unlock: $$AUTO$$
+	unlock: ##AUTO##
 }
 }

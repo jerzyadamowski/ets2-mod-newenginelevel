@@ -2,7 +2,7 @@ SiiNunit
 {
 accessory_engine_data : dc16_520.scania.streamline.engine
 {
-	unlock: $$AUTO$$
+	unlock: ##AUTO##
 
 }
 }

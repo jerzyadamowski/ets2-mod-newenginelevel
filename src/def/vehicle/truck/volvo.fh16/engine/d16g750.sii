@@ -2,6 +2,6 @@ SiiNunit
 {
 accessory_engine_data : d16g750.volvo.fh16.engine
 {
-	unlock: $$AUTO$$
+	unlock: ##AUTO##
 }
 }

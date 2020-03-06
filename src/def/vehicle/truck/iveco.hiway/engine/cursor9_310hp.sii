@@ -2,6 +2,6 @@ SiiNunit
 {
 accessory_engine_data : cur9_310.iveco.hiway.engine
 {
-	unlock: $$AUTO$$
+	unlock: ##AUTO##
 }
 }

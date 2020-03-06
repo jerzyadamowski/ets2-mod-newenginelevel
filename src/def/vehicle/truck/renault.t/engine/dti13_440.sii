@@ -2,6 +2,6 @@ SiiNunit
 {
 accessory_engine_data : dti13_440.renault.t.engine
 {
-	unlock: $$AUTO$$
+	unlock: ##AUTO##
 }
 }

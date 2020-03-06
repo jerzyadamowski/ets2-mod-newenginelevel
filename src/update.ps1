@@ -1,3 +1,4 @@
+import-module psexcel
 $importData = Import-XLSX -Path .\src\NewEngineFormulas.xlsx -RowStart 18;
 
 $currentTruckPathSource = "";

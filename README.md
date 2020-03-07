@@ -21,6 +21,8 @@ At end you should get functions supported by module `psexcel`
 ./src/update.ps1
 ```
 
-## Then zip entire directory NewEngineLevel
+## Create mod package `NewEngineLevel.scs` and deploys it to `-outDir`
 
-## Alter extension from `zip` to `scs`
+```
+.\src\package.ps1 -outDir "c:\Users\<USER DIRECTORY>\Documents\Euro Truck Simulator 2\mod\"
+```

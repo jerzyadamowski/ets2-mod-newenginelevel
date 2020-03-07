@@ -1,3 +1,5 @@
+### WORK IN PROGRESS - mod isn't fully functional
+
 ## Setup develop environment.
 
 Powershell support

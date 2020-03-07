@@ -17,7 +17,13 @@ $compress = @{
   DestinationPath = $fileOutZip
 }
 
-Remove-Item -Path $fileOutZip -Force
+If((test-path $fileOutZip)) {
+  Remove-Item -Path $fileOutZip -Force
+}
+
+If((test-path $fileOutScs)) {
+  Remove-Item -Path $fileOutScs -Force
+}
 
 Compress-Archive @compress
 

@@ -35,6 +35,6 @@ foreach($row in $importData)
   {
     New-Item -ItemType Directory -Force -Path $currentTruckPathDest | Out-Null
   }
-  
-  $newContent | Out-File -FilePath $currentEnginePathDest  
+
+  [System.IO.File]::WriteAllLines($currentEnginePathDest, $newContent)| Out-Null
 }

@@ -23,6 +23,8 @@ At end you should get functions supported by module `psexcel`
 
 ## Create mod package `NewEngineLevel.scs` and deploys it to `-outDir`
 
+## Before you run package.ps1 make sure that you installed 7zip on your OS
+
 ```
 .\src\package.ps1 -outDir "c:\Users\<USER DIRECTORY>\Documents\Euro Truck Simulator 2\mod\"
 ```

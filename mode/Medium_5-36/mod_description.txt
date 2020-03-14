@@ -18,7 +18,7 @@ Would you like to have access at begining to trucks with underpowered engines bu
 [bold]This mod is dedicated to all Economy mods. Should works with vanila ETS 2 or DLC, but doesnt with custom engine mods.
 
 Q: Does mod change anything besides unlock level?
-A: No, this mod renumerate engine unlock from 1 to 36 level.
+A: No, this mod renumerate engine unlock from 5 to 36 level.
 
 Q: Is this mod realistic?
 A: No, some truckd will be available from low level, but other wont be accessible till you hit very high level

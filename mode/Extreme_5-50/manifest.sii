@@ -8,7 +8,7 @@ mod_package : .package_name {
     package_version: "1.0"
 
     # Display name can be any string with any length.
-    display_name: "New Engine Level Extreme 0 - 50"
+    display_name: "New Engine Level Extreme 5 - 50"
 
     # Author can be any string with any length.
     author: "Zwaua"

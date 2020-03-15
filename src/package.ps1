@@ -37,8 +37,12 @@ foreach ($out in $outDirectories) {
   Copy-Item -Path "$((Resolve-Path .\).Path)\mode\$($out.Name)\mod_description.txt" -Destination $dirOut
   Copy-Item -Path "$((Resolve-Path .\).Path)\mode\$($out.Name)\newenginelevel.jpg" -Destination $dirOut
 
-  7zip -aDirectory "$dirOut\*" -aZipfile $fileOutZip
+  7zip -aDirectory "$dirOut\*" -aZipfile $fileOutZip | Out-Null
 
   Rename-Item -Path $fileOutZip -NewName $fileOutScs
+
+  If ((test-path $dirOut)) {
+    Remove-Item -Path $dirOut -Force -Recurse
+  }
 }
 

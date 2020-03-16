@@ -8,6 +8,10 @@ function 7zip([String] $aDirectory, [String] $aZipfile) {
   & "$pathToZipExe" a -tzip "$aZipfile" "$aDirectory" -r -mx=0
 }
 
+If (!(test-path .\out)) {
+  New-Item -ItemType Directory -Force -Path .\out | Out-Null
+}
+
 $outDirectories = Get-ChildItem -Path .\out -Directory
 
 foreach ($out in $outDirectories) {
@@ -33,6 +37,9 @@ foreach ($out in $outDirectories) {
   }
 
   Copy-Item -Path "$inputDir\def" -Destination $dirOut -Recurse
+  If ((test-path "$((Resolve-Path .\).Path)\mode\$($out.Name)\def")) {
+    Copy-Item -Path "$((Resolve-Path .\).Path)\mode\$($out.Name)\def" -Destination $dirOut -Recurse -Force
+  }
   Copy-Item -Path "$((Resolve-Path .\).Path)\mode\$($out.Name)\manifest.sii" -Destination $dirOut
   Copy-Item -Path "$((Resolve-Path .\).Path)\mode\$($out.Name)\mod_description.txt" -Destination $dirOut
   Copy-Item -Path "$((Resolve-Path .\).Path)\mode\$($out.Name)\newenginelevel.jpg" -Destination $dirOut

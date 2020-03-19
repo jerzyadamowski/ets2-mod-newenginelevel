@@ -1,4 +1,4 @@
-Name: [green]New Engine Level All Unlock[normal]
+Name: [green]New Engine Level Medium 5 - 36[normal]
 Version: [green]1.1[normal] by [red]Zwaua[normal]
 Compatibility: [red]1.36+[normal]
 

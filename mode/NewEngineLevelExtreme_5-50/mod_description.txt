@@ -1,4 +1,4 @@
-Name: [green]New Engine Level All Extreme 5 - 50[normal]
+Name: [green]New Engine Level Extreme 5 - 50[normal]
 Version: [green]1.1[normal] by [red]Zwaua[normal]
 Compatibility: [red]1.36+[normal]
 

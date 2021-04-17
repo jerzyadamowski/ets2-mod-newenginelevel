@@ -4,7 +4,7 @@ accessory_engine_data : mx375.daf.xf.engine
 {
 	name: "PACCAR MX375"
 	price: 19200
-unlock: ##AUTO##
+	unlock: 16
 
 	info[]: "510 @@hp@@ (375@@kw@@)"
 	info[]: "2@@dg@@500 @@nm@@"
@@ -15,6 +15,8 @@ unlock: ##AUTO##
 	volume: 12.9
 	rpm_limit: 2150
 	no_adblue_power_limit: 0.5
+
+@include "sound.sui"
 
 	overrides[]: "/def/vehicle/truck/daf.xf/accessory/badge/bdg_510.sii"
 }

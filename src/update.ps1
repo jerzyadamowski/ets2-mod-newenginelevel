@@ -28,7 +28,7 @@ foreach ($dir in $modeDirectories) {
     }
 
     #read content from file with replace placeholders within new level
-    $newContent = (Get-Content -Path $currentEnginePathSource) -replace "##AUTO##", "$($row."New Lvl")"
+    $newContent = (Get-Content -Path $currentEnginePathSource) -replace 'unlock:(.*\d*)', "unlock: $($row."New Lvl")"
 
     #write content to file
     If (!(test-path $currentTruckPathDest)) {

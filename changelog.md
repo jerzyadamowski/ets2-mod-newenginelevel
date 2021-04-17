@@ -5,7 +5,7 @@
 * Supports mercedes engine power peak
 * Supports Man interior updates
 
-Generally this patch up to date with ETS2 1.40
+Generally this patch is up to date with ETS2 1.40
 
 ----
 1.1 Version for steam workshop

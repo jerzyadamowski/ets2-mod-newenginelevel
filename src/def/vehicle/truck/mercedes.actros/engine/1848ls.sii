@@ -4,7 +4,7 @@ accessory_engine_data : 1848ls.mercedes.actros.engine
 {
 	name: "OM 541 V6 BlueTec5 350"
 	price: 15540
-unlock: ##AUTO##
+	unlock: 14
 	info[]: "476 @@hp@@ (350@@kw@@)"
 	info[]: "2@@dg@@300 @@nm@@"
 	info[]: "1@@dg@@080 @@rpm@@"
@@ -22,8 +22,10 @@ unlock: ##AUTO##
 
 	volume: 11.95
 	rpm_limit: 2000
-	rpm_range_power_boost: (400, 300)
+	rpm_range_power: (1400, 1800)
 	no_adblue_power_limit: 0.5
+
+@include "sound.sui"
 
 	overrides[]: "/def/vehicle/truck/mercedes.actros/accessory/badge_b/badge_xx48.sii"
 }

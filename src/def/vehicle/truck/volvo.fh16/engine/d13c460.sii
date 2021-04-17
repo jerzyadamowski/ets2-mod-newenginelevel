@@ -1,6 +1,6 @@
 SiiNunit
 {
-accessory_engine_data : d13c460.volvo.fh16_2012.engine
+accessory_engine_data : d13c460.volvo.fh16.engine
 {
 	name: "D13C460 Euro 5 EEV"
 	price: 13440
@@ -15,8 +15,8 @@ accessory_engine_data : d13c460.volvo.fh16_2012.engine
 	volume: 12.8
 	no_adblue_power_limit: 0.5
 
-@include "sound_lo.sui"
+@include "sound.sui"
 
-	overrides[]: "/def/vehicle/truck/volvo.fh16_2012/accessory/badge/badge_460.sii"
+	overrides[]: "/def/vehicle/truck/volvo.fh16/accessory/badge/b460.sii"
 }
 }

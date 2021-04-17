@@ -4,7 +4,7 @@ accessory_engine_data : mx13_355.daf.xf_euro6.engine
 {
 	name: "MX-13 355 Euro 6, 2017"
 	price: 19800
-unlock: ##AUTO##
+	unlock: 14
 	info[]: "480 @@hp@@ (355@@kw@@)"
 	info[]: "2@@dg@@350/2@@dg@@500 @@nm@@"
 	info[]: "900-1@@dg@@365 @@rpm@@"
@@ -14,6 +14,8 @@ unlock: ##AUTO##
 	rpm_limit: 2200
 	volume: 12.9
 	no_adblue_power_limit: 0.5
+
+@include "sound.sui"
 
 	overrides[]: "/def/vehicle/truck/daf.xf_euro6/badge/badge_480.sii"
 }

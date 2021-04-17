@@ -4,7 +4,7 @@ accessory_engine_data : dti11_460.renault.t.engine
 {
 	name: "DTI 11 460 Euro 6"
 	price: 17340
-unlock: ##AUTO##
+	unlock: 14
 	info[]: "460 @@hp@@ (338@@kw@@)"
 	info[]: "2@@dg@@200 @@nm@@"
 	info[]: "1@@dg@@000-1@@dg@@400 @@rpm@@"
@@ -21,5 +21,7 @@ unlock: ##AUTO##
 	volume: 10.8
 	rpm_limit: 2100
 	no_adblue_power_limit: 0.5
+
+@include "sound.sui"
 }
 }

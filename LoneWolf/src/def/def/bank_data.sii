@@ -1,0 +1,23 @@
+SiiNunit
+{
+
+bank_data : bank.data.storage
+{
+	min_after_loan_repay:	0 #[def 0]
+
+	loan_offers[]: bank.data.loan1
+
+	overdraft_duration:	0	# days #[def 5]
+	overdraft_warn_day:	0	# starting on 3rd day #[def 2]
+
+}
+
+bank_loan_data: bank.data.loan1
+{
+	amount: 0 		#[def 10000]
+	interest_rate: 0.0	# 25 % [def 0.23]
+	duration: 0		# in weeks #[def 5]
+}
+
+}
+

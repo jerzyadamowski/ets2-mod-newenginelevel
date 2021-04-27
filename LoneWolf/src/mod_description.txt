@@ -1,0 +1,13 @@
+Name: [green]Lone Wolf[normal]
+Version: [green]1.0[normal] by [red]Zwaua[normal]
+Compatibility: [red]1.40+[normal]
+
+[orange]1.0
+[normal]No loans, No garages, No drivers! Just you!
+[orange]Works with fresh start and highest mod priority
+
+Max loan what you can get is 0
+Drivers cost incredible big money and dont generates income
+Garages are incredible expensive.
+
+And extra bonus is that fines are higher.

@@ -2,6 +2,10 @@ import-module psexcel
 
 $modeDirectories = Get-ChildItem -Path .\mode -Directory
 
+If ((test-path "$((Resolve-Path .\).Path)\mode\LoneWolf\def")) {
+  Copy-Item -Path "$((Resolve-Path .\).Path)\mode\LoneWolf\def" -Destination "$((Resolve-Path .\).Path)\out\LoneWolf\def" -Recurse -Force
+}
+
 foreach ($dir in $modeDirectories) {
   $importData = Import-XLSX -Path "$($dir.FullName)\NewEngineFormulas.xlsx" -RowStart 18;
 

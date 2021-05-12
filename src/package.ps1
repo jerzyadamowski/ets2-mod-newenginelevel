@@ -1,6 +1,7 @@
 #todo: create scs file from this project
 param (
-  [Parameter(Mandatory = $true)][string]$outDir
+  [Parameter(Mandatory = $true)][string]$outDir,
+  [Parameter(Mandatory = $false)][string]$workshopDir = "$outDir\workshop"
 )
 
 function 7zip([String] $aDirectory, [String] $aZipfile) {
@@ -51,6 +52,18 @@ foreach ($out in $outDirectories) {
   Rename-Item -Path $fileOutZip -NewName $renameToScs
 
   #todo create export for steam workshop
+
+  If (!(test-path "$workshopDir\$($out.Name)")) {
+    New-Item -ItemType Directory -Force -Path "$workshopDir\$($out.Name)" | Out-Null
+  }
+  else {
+    Remove-Item -Path "$workshopDir\$($out.Name)" -Force -Recurse
+    New-Item -ItemType Directory -Force -Path "$workshopDir\$($out.Name)" | Out-Null
+  }
+
+  Copy-Item -Path "$((Resolve-Path .\).Path)\mode\$($out.Name)\workshop\*" -Destination "$workshopDir\$($out.Name)"  -Recurse -Force
+  Copy-Item -Path "$dirOut\*" -Destination "$workshopDir\$($out.Name)\default\" -Force
+  Copy-Item -Path "$dirOut\def" -Destination "$workshopDir\$($out.Name)\default\def" -Recurse -Force
 
   If ((test-path $dirOut)) {
     #Remove-Item -Path $dirOut -Force -Recurse

@@ -7,6 +7,9 @@ If ((test-path "$((Resolve-Path .\).Path)\mode\LoneWolf\def")) {
 }
 
 foreach ($dir in $modeDirectories) {
+  If (!(test-path "$($dir.FullName)\NewEngineFormulas.xlsx")) {
+    continue;
+  }
   $importData = Import-XLSX -Path "$($dir.FullName)\NewEngineFormulas.xlsx" -RowStart 18;
 
   $currentTruckPathSource = "";

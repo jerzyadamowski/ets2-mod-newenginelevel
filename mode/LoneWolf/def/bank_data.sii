@@ -3,20 +3,45 @@ SiiNunit
 
 bank_data : bank.data.storage
 {
-	min_after_loan_repay:	0 #[def 0]
+	min_after_loan_repay:	10 #[def 0]
 
 	loan_offers[]: bank.data.loan1
+	loan_offers[]: bank.data.loan2
+	loan_offers[]: bank.data.loan3
+	loan_offers[]: bank.data.loan4
 
-	overdraft_duration:	0	# days #[def 5]
-	overdraft_warn_day:	0	# starting on 3rd day #[def 2]
+	overdraft_duration:	5	# days
+	overdraft_warn_day:	3	# starting on 3rd day
 
 }
 
+
 bank_loan_data: bank.data.loan1
 {
-	amount: 0 		#[def 10000]
-	interest_rate: 0.0	# 25 % [def 0.23]
-	duration: 0		# in weeks #[def 5]
+	amount: 10000 		#[def 10000]
+	interest_rate: 10.0	# 25 % [def 0.23]
+	duration: 5		# in weeks #[def 5]
+}
+
+bank_loan_data: bank.data.loan2
+{
+	amount: 20000 		#[def 10000]
+	interest_rate: 9.5	# 25 % [def 0.23]
+	duration: 6		# in weeks #[def 5]
+}
+
+bank_loan_data: bank.data.loan3
+{
+	amount: 30000 		#[def 10000]
+	interest_rate: 9.0	# 25 % [def 0.23]
+	duration: 7		# in weeks #[def 5]
+}
+
+bank_loan_data: bank.data.loan4
+{
+	amount: 40000 		#[def 10000]
+	interest_rate: 8.5	# 25 % [def 0.23]
+	duration: 8		# in weeks #[def 5]
 }
 
 }

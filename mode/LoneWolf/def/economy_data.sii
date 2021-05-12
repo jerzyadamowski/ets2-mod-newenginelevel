@@ -32,8 +32,8 @@ economy_data : economy.data.storage
 	default_time_zone: 120		# +2 hours
 	default_time_zone_name: "CEST"
 
-	maximum_driving_time: 660	# how long the driver can drive (in minutes)
-	sleeping_time: 540		# length of sleep (in minutes)
+	maximum_driving_time: 660	# 11h how long the driver can drive (in minutes)
+	sleeping_time: 540		# 9h length of sleep (in minutes)
 
 	delivery_window[0]: 400		# easy
 	delivery_window[1]: 250		# medium
@@ -71,8 +71,8 @@ economy_data : economy.data.storage
 	driver_max_cargo_damage: 6.0		# in %, decrease with skill
 	driver_maintenance_cost: (1.8, 3.0) 	# maintenance + insurance, base range in E/km
 	minimal_driver_salary:	350		# fixed part of driver's pay
-	driver_revenue_coef_per_km: 0.0		# Revenue coefficient used during quick job and drivers jobs.
-	driver_cargo_market_revenue_coef_per_km: 0.0 # Revenue coefficient used during cargo market jobs for drivers.
+	driver_revenue_coef_per_km: 0.25		# Revenue coefficient used during quick job and drivers jobs.
+	driver_cargo_market_revenue_coef_per_km: 0.3 # Revenue coefficient used during cargo market jobs for drivers.
 
 	driver_hire_cost: 1500000000		# Euro
 
@@ -97,8 +97,8 @@ economy_data : economy.data.storage
 	skill_distance[5]:	1500
 
 	fixed_revenue: 600
-	revenue_coef_per_km: 0.9 # Revenue coefficient per km used during freight market jobs.
-	cargo_market_revenue_coef_per_km: 1.0 # Revenue coefficient per km used during cargo market jobs.
+	revenue_coef_per_km: 0.45 # Revenue coefficient per km used during freight market jobs.
+	cargo_market_revenue_coef_per_km: 0.5 # Revenue coefficient per km used during cargo market jobs.
 
 	max_eco_consumption_drop[0]: (0.1, 0.1)	# consumption decreased by 40% (or 60% if driving with trailer) 
 							#  for ecodriving skill maximum
@@ -141,30 +141,30 @@ economy_data : economy.data.storage
 #  Experience points
 	free_roam_report_limit: 100
 
-	exp_cargo_delivery: 	1.0		# per km of real world
+	exp_cargo_delivery: 	3.0		# per km of real world
 	exp_free_roam: 		0.5		# per km of real world
-	exp_road_discovery:	0.8		# per km of real world
+	exp_road_discovery:	2.0		# per km of real world
 
-//	exp_late_delivery: 	0.4		# -40% 	
-	exp_perfect_delivery: 	0.24		# +24% 	
-	exp_adr_bonus:		0.21		# +21%	of total cargo delivery exp. points
-	exp_important_bonus:	0.2		# +20%
-	exp_urgent_bonus:	0.3		# +30%
-	exp_fragile_bonus:	0.22		# +22%
-	exp_long_dist_bonus:	0.25		# +25%
-	exp_valuable_bonus:	0.18		# +18%
+//	exp_late_delivery: 	0.4		# def -40% 	
+	exp_perfect_delivery: 	0.3		# def +24% 	
+	exp_adr_bonus:		0.4		# def +21%	of total cargo delivery exp. points
+	exp_important_bonus:	0.2		# def +20%
+	exp_urgent_bonus:	0.3		# def +30%
+	exp_fragile_bonus:	0.22		# def +22%
+	exp_long_dist_bonus:	0.25		# def +25%
+	exp_valuable_bonus:	0.18		# def +18%
 
-	exp_park_bonus: 15			# bonus for not using the autopark feature on EASY parking spot
-	exp_park_bonus_medium: 40		# bonus for not using the autopark feature on MEDIUM parking spot
-	exp_park_bonus_hard: 90			# bonus for not using the autopark feature on HARD parking spot
+	exp_park_bonus: 90			# bonus for not using the autopark feature on EASY parking spot
+	exp_park_bonus_medium: 180		# bonus for not using the autopark feature on MEDIUM parking spot
+	exp_park_bonus_hard: 360			# bonus for not using the autopark feature on HARD parking spot
 
-	exp_park_double_bonus: 20		# bonus for not using the autopark feature on EASY parking spot with double
-	exp_park_double_bonus_medium: 60	# bonus for not using the autopark feature on MEDIUM parking spot with double
-	exp_park_double_bonus_hard: 170		# bonus for not using the autopark feature on HARD parking spot with double
+	exp_park_double_bonus: 170		# bonus for not using the autopark feature on EASY parking spot with double
+	exp_park_double_bonus_medium: 340	# bonus for not using the autopark feature on MEDIUM parking spot with double
+	exp_park_double_bonus_hard: 680		# bonus for not using the autopark feature on HARD parking spot with double
 
-	exp_park_load_bonus: 15		# exp bonus for manually parking trailer during loading phase of the job
+	exp_park_load_bonus: 120		# exp bonus for manually parking trailer during loading phase of the job
 
-	exp_damaged_cargo:	5		# -5 XP per 1% of cargo damage
+	exp_damaged_cargo:	25		# -5 XP per 1% of cargo damage
 	exp_damaged_cargo_factor: 0.04		# -4% of total XP per 1% of cargo damage
 
 

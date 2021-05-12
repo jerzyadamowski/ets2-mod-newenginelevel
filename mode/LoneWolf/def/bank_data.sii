@@ -12,7 +12,6 @@ bank_data : bank.data.storage
 
 	overdraft_duration:	5	# days
 	overdraft_warn_day:	3	# starting on 3rd day
-
 }
 
 

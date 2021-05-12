@@ -12,14 +12,12 @@ economy: .economy
 	mail_ctrl: .mailbox
 	delivery_log: .delivery_log
 	experience_points: 0
-	stored_tutorial_state: 10
-
 
 # Starting time in minutes.
 
 	game_time: 600
 
-
+	@include "locked_screens.sui"
 }
 
 bank: .bank
@@ -34,7 +32,7 @@ bank_loan : .loan {
  amount: 1000000
  original_amount: 1000000
  time_stamp: 600
- interest_rate: &3f800000
+ interest_rate: &3fc00000
  duration: 400
 }
 
@@ -84,22 +82,6 @@ delivery_log: .delivery_log
 
 player: .player
 {
-	trucks[]: start.truck
-	assigned_truck: start.truck
-	my_truck: start.truck
-	truck_profit_logs[]: .log
-	current_job: null
-	selected_job: null
-	my_truck_placement: (&4622daa3, &4203e813, &c61d0a79) (&3f0ad859; &3caa4c3c, &3f56fc54, &bc531a2a)
-	my_truck_placement_valid: false
-	truck_placement: (&4622daa3, &4203e813, &c61d0a79) (&3f0ad859; &3caa4c3c, &3f56fc54, &bc531a2a)
-	schedule_transfer_to_hq: true
 }
-
-profit_log: .log
-{
-}
-
-@include "iveco_stralis.sui"
 
 }

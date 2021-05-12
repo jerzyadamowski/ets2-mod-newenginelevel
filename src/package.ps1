@@ -46,7 +46,11 @@ foreach ($out in $outDirectories) {
 
   7zip -aDirectory "$dirOut\*" -aZipfile $fileOutZip | Out-Null
 
-  Rename-Item -Path $fileOutZip -NewName $fileOutScs
+  $renameToScs = Split-Path $fileOutScs -Leaf 
+
+  Rename-Item -Path $fileOutZip -NewName $renameToScs
+
+  #todo create export for steam workshop
 
   If ((test-path $dirOut)) {
     #Remove-Item -Path $dirOut -Force -Recurse

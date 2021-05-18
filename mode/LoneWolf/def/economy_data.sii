@@ -20,8 +20,8 @@ economy_data : economy.data.storage
 
 	abandoned_job_fine: 12000
 
-	cargo_damage_cost: 5.0 		# -5 Euro per 1% of damage
-	cargo_damage_cost_factor: 0.04 	# -4% total cost penalty per 1% of damage
+	cargo_damage_cost: 25.0 		# -5 Euro per 1% of damage
+	cargo_damage_cost_factor: 0.12 	# -4% total cost penalty per 1% of damage
 
 	late_delivery_max_overtime[0]: 2880	# 2 days for "easy" deliveries
 	late_delivery_max_overtime[1]: 720	# 12 hours for "normal" deliveries
@@ -71,8 +71,8 @@ economy_data : economy.data.storage
 	driver_max_cargo_damage: 6.0		# in %, decrease with skill
 	driver_maintenance_cost: (1.8, 3.0) 	# maintenance + insurance, base range in E/km
 	minimal_driver_salary:	350		# fixed part of driver's pay
-	driver_revenue_coef_per_km: 0.15		# Revenue coefficient used during quick job and drivers jobs.
-  driver_cargo_market_revenue_coef_per_km: 0.18 # Revenue coefficient used during cargo market jobs for drivers.
+	driver_revenue_coef_per_km: 0.15 #best: 0.15		# Revenue coefficient used during quick job and drivers jobs.
+  driver_cargo_market_revenue_coef_per_km: 0.18 #best: 0.18 # Revenue coefficient used during cargo market jobs for drivers.
 
 	driver_hire_cost: 1500000000		# Euro
 
@@ -97,8 +97,8 @@ economy_data : economy.data.storage
 	skill_distance[5]:	1500
 
 	fixed_revenue: 600
-	revenue_coef_per_km: 0.45 # Revenue coefficient per km used during freight market jobs.
-	cargo_market_revenue_coef_per_km: 0.5 # Revenue coefficient per km used during cargo market jobs.
+	revenue_coef_per_km: 0.36 #prev: 0.45# Revenue coefficient per km used during freight market jobs.
+	cargo_market_revenue_coef_per_km: 0.38 #prev: 0.5 # Revenue coefficient per km used during cargo market jobs.
 
 	max_eco_consumption_drop[0]: (0.1, 0.1)	# consumption decreased by 40% (or 60% if driving with trailer) 
 							#  for ecodriving skill maximum
@@ -164,8 +164,8 @@ economy_data : economy.data.storage
 
 	exp_park_load_bonus: 120		# exp bonus for manually parking trailer during loading phase of the job
 
-	exp_damaged_cargo:	25		# -5 XP per 1% of cargo damage
-	exp_damaged_cargo_factor: 0.12		# -4% of total XP per 1% of cargo damage
+	exp_damaged_cargo:	25		# def: -5 XP per 1% of cargo damage
+	exp_damaged_cargo_factor: 0.12		# def:  -4% of total XP per 1% of cargo damage
 
 
 	adr_info_icon[]:	"1|/material/ui/icon/adr_1.mat"

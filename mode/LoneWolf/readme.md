@@ -1,6 +1,7 @@
 - market jobs ~= 18 Euro / km revenue
 - quick jobs ~= 6 Euro / km revenue
 - >1000% fines
+- new levels for unlock engines from 15 to 40
 
 + experience xp x2
 + parking bonuses xp x4

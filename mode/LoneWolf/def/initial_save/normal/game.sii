@@ -15,7 +15,7 @@ economy: .economy
 
 # Starting time in minutes.
 
-	game_time: 300
+	game_time: 600
 
 	screen_access_list[]: 	"screen.bank"
 	screen_access_list[]: 	"screen.mail"
@@ -49,7 +49,7 @@ bank: .bank
 bank_loan : .loan {
  amount: 1000000
  original_amount: 1000000
- time_stamp: 300
+ time_stamp: 600
  interest_rate: &3fc00000
  duration: 400
 }

@@ -70,7 +70,7 @@ economy_data : economy.data.storage
 	fuel_cost_per_km: (1.5, 2.0)		# for driver simulation
 	driver_max_cargo_damage: 6.0		# in %, decrease with skill
 	driver_maintenance_cost: (1.8, 3.0) 	# maintenance + insurance, base range in E/km
-	minimal_driver_salary:	350		# fixed part of driver's pay
+	minimal_driver_salary:	600		# fixed part of driver's pay
 	driver_revenue_coef_per_km: 0.15 #best: 0.15		# Revenue coefficient used during quick job and drivers jobs.
   driver_cargo_market_revenue_coef_per_km: 0.18 #best: 0.18 # Revenue coefficient used during cargo market jobs for drivers.
 

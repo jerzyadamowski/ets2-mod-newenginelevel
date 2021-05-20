@@ -3,40 +3,40 @@ SiiNunit
 police_data : police.data
 {
 	# level based fines: min(base + level * step, limit), rounded up to multiple of rounding.
-	fine_factor_base: 1.0 #def 0.2
-	fine_factor_step: 0.00 #def 0.08
-	fine_factor_limit: 1.0 #def 1.0
-	fine_amount_rounding: 20 #def 20
+	fine_factor_base: 1.0 # 0.2
+	fine_factor_step: 0.00 # 0.08
+	fine_factor_limit: 1.0 # 1.0
+	fine_amount_rounding: 20 # 20
 	
 	# speeding based progression: fine *= min( multiplier ^ (overspeed / step), limit), uses same rounding as above
 	fine_overspeed_step: 2.777778
 	fine_overspeed_step_multiplier: 1.877
 	fine_overspeed_multiplier_limit: 12.5
 
-	fine_amounts[0]: 1000 		# car crash [def 400]
-	fine_amounts[1]: 2000 		# avoid sleeping [def 150]
-	fine_amounts[2]: 500 		# wrong way [def 100]
-	fine_amounts[3]: 400 		# speeding (camera) [def 200]
-	fine_amounts[4]: 500		# no lights during night [def 150]
-	fine_amounts[5]: 750 		# red lights [def 350]
-	fine_amounts[6]: 400 		# speeding [def 200]
-	fine_amounts[7]: 700		# avoid weighing [def 700]
-	fine_amounts[8]: 1500		# illegal trailer [def 1500]
-	fine_amounts[9]: 1000		# avoid inspection [def 900]
-	fine_amounts[10]: 2000		# illegal border crossing [def 2000]
-	fine_amounts[11]: 150		# hard shoulder violation [def 150]
-	fine_amounts[12]: 500		# damaged vehicle usage [def 500]
+	fine_amounts[0]: 1000 		# car crash 400
+	fine_amounts[1]: 2000 		# avoid sleeping 150
+	fine_amounts[2]: 500 		# wrong way 100
+	fine_amounts[3]: 400 		# speeding (camera) 200
+	fine_amounts[4]: 500		# no lights during night 150
+	fine_amounts[5]: 750 		# red lights 350
+	fine_amounts[6]: 400 		# speeding 200
+	fine_amounts[7]: 700		# avoid weighing 700
+	fine_amounts[8]: 1500		# illegal trailer 1500
+	fine_amounts[9]: 1000		# avoid inspection 900
+	fine_amounts[10]: 2000		# illegal border crossing 2000
+	fine_amounts[11]: 150		# hard shoulder violation 150
+	fine_amounts[12]: 500		# damaged vehicle usage 500
 
 	#
 	# in seconds of real time
 	#
-	offence_check_delay[0]: 0 	# car crash [def 0]
-	offence_check_delay[1]: 360 # avoid sleeping [def 60]
-	offence_check_delay[2]: 25 	# wrong way [def 15]
-	offence_check_delay[3]: 0 	# speeding (camera) [def 0]
-	offence_check_delay[4]: 90	# no lights during night [def 70]
-	offence_check_delay[5]: 0 	# red lights [def 0]
-	offence_check_delay[6]: 60 	# speeding [def 60]
+	offence_check_delay[0]: 0 	# car crash 0
+	offence_check_delay[1]: 360 # avoid sleeping 60
+	offence_check_delay[2]: 25 	# wrong way 15
+	offence_check_delay[3]: 0 	# speeding (camera) 0
+	offence_check_delay[4]: 90	# no lights during night 70
+	offence_check_delay[5]: 0 	# red lights 0
+	offence_check_delay[6]: 60 	# speeding 60
 	
 	offence_police_check_delay[0]: 0 	# car crash, def 0
 	offence_police_check_delay[1]: 30 	# avoid sleeping, def 30
@@ -53,7 +53,7 @@ police_data : police.data
 	offence_probabilty[3]: 1.0 	# speeding (camera) [def 1.0]
 	offence_probabilty[4]: 0.7	# no lights during night [def 0.3]
 	offence_probabilty[5]: 1.0 	# red lights [def 0.4]
-	offence_probabilty[6]: 0.0 	# speeding (currently disabled. NOTE (viktor): Must to keep is 0 also because now we use ONLY speedcameras to detect player's speed, nothing random)
+	offence_probabilty[6]: 0.0 	# speeding 
 	
 	offence_police_probabilty[0]: 1.0 	# car crash, def 1.0
 	offence_police_probabilty[1]: 0.9 	# avoid sleeping, def 0.3
@@ -112,10 +112,10 @@ police_data : police.data
 	message_delay: 4.0
 	
 	# increase fine if there is some police car nearby
-	police_nearby_fine_rate: 1.25 #def 2
+	police_nearby_fine_rate: 1.25 # 2
 
 	# how often can nearby police car impose a fine
-	police_nearby_offence_timer: 240.0 #def 15.0
+	police_nearby_offence_timer: 240.0 # 15.0
 }
 }
 

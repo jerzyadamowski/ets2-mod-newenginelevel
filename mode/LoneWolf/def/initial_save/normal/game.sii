@@ -12,6 +12,7 @@ economy: .economy
 	mail_ctrl: .mailbox
 	delivery_log: .delivery_log
 	experience_points: 0
+	driver_pool: 0
 
 # Starting time in minutes.
 
@@ -40,7 +41,7 @@ economy: .economy
 
 bank: .bank
 {
-	money_account: 10000
+	money_account: 1000000
 	app_enabled: false
 	loans: 1
 	loans[0]: .loan
@@ -50,7 +51,7 @@ bank_loan : .loan {
  amount: 1000000
  original_amount: 1000000
  time_stamp: 600
- interest_rate: &3fc00000
+ interest_rate: 1.5
  duration: 400
 }
 

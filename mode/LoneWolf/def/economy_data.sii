@@ -7,8 +7,8 @@ economy_data : economy.data.storage
 	# Base revenue per km in game native currency.
 	revenue_per_km_base: 15
 
-	price_small_garage: 1800000000
-	price_garage_upgrade: 1000000000
+	price_small_garage: 640000
+	price_garage_upgrade: 480000
 
 	garage_prod_plan_tiny: 20000
 	garage_prod_plan_small: 150000
@@ -45,9 +45,9 @@ economy_data : economy.data.storage
 
 	hurry_up_timer: 114		# how long the hurry up music will play (in game minutes)
 
-	no_cargo_prob:	0.1		# 10% prob. of empty cargo slot
+	no_cargo_prob:	0.5		# 10% prob. of empty cargo slot
 	cargo_validity_min: 180		# 3 hours
-	cargo_validity_max: 1800	# 30 hours
+	cargo_validity_max: 360  	# 6 hours
 
 	# assistance service
 
@@ -74,7 +74,7 @@ economy_data : economy.data.storage
 	driver_revenue_coef_per_km: 0.15 #best: 0.15		# Revenue coefficient used during quick job and drivers jobs.
   driver_cargo_market_revenue_coef_per_km: 0.18 #best: 0.18 # Revenue coefficient used during cargo market jobs for drivers.
 
-	driver_hire_cost: 1500000000		# Euro
+	driver_hire_cost: 1200000		# Euro
 
 	free_driver_level_cap: 30	# don't grow offered drivers higher than this level
 	driver_offer_scrap_prob: 0.5
@@ -109,34 +109,34 @@ economy_data : economy.data.storage
 	max_eco_consumption_drop[5]: (0.35, 0.35)	# Maximum consumption drop is 0.99.
 
 	reward_bonus_long_dist[0]: 0.05
-	reward_bonus_long_dist[1]: 0.05
-	reward_bonus_long_dist[2]: 0.05
-	reward_bonus_long_dist[3]: 0.05
-	reward_bonus_long_dist[4]: 0.05
-	reward_bonus_long_dist[5]: 0.05
+	reward_bonus_long_dist[1]: 0.04
+	reward_bonus_long_dist[2]: 0.03
+	reward_bonus_long_dist[3]: 0.02
+	reward_bonus_long_dist[4]: 0.01
+	reward_bonus_long_dist[5]: 0.01
 
 	reward_bonus_valuable[0]: 0.05
-	reward_bonus_valuable[1]: 0.05
-	reward_bonus_valuable[2]: 0.05
-	reward_bonus_valuable[3]: 0.05
-	reward_bonus_valuable[4]: 0.05
-	reward_bonus_valuable[5]: 0.05
+	reward_bonus_valuable[1]: 0.04
+	reward_bonus_valuable[2]: 0.03
+	reward_bonus_valuable[3]: 0.02
+	reward_bonus_valuable[4]: 0.01
+	reward_bonus_valuable[5]: 0.01
 
 	reward_bonus_fragile[0]: 0.05
-	reward_bonus_fragile[1]: 0.05
-	reward_bonus_fragile[2]: 0.05
-	reward_bonus_fragile[3]: 0.05
-	reward_bonus_fragile[4]: 0.05
-	reward_bonus_fragile[5]: 0.05
+	reward_bonus_fragile[1]: 0.04
+	reward_bonus_fragile[2]: 0.03
+	reward_bonus_fragile[3]: 0.02
+	reward_bonus_fragile[4]: 0.01
+	reward_bonus_fragile[5]: 0.01
 
 	reward_bonus_urgent[0]: 0.05
-	reward_bonus_urgent[1]: 0.05
-	reward_bonus_urgent[2]: 0.05
-	reward_bonus_urgent[3]: 0.05
-	reward_bonus_urgent[4]: 0.05
-	reward_bonus_urgent[5]: 0.05
+	reward_bonus_urgent[1]: 0.04
+	reward_bonus_urgent[2]: 0.03
+	reward_bonus_urgent[3]: 0.02
+	reward_bonus_urgent[4]: 0.01
+	reward_bonus_urgent[5]: 0.01
 
-	reward_bonus_level: 0.015
+	reward_bonus_level: 0.02
 
 #  Experience points
 	free_roam_report_limit: 100

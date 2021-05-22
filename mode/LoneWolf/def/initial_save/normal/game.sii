@@ -12,7 +12,6 @@ economy: .economy
 	mail_ctrl: .mailbox
 	delivery_log: .delivery_log
 	experience_points: 0
-	driver_pool: 0
 
 # Starting time in minutes.
 
@@ -26,7 +25,7 @@ economy: .economy
 	screen_access_list[]: 	"job.log"
 	screen_access_list[]: 	"screen.skills"
 	screen_access_list[]: 	"overview.compman_w"
-	screen_access_list[]:	"screen.garageman"
+	screen_access_list[]:		"screen.garageman"
 	screen_access_list[]: 	"screen.truckman"
 	screen_access_list[]: 	"screen.trailerman"
 	screen_access_list[]: 	"screen.driverman"
@@ -35,13 +34,13 @@ economy: .economy
 	screen_access_list[]: 	"screen.real_estate"
 	screen_access_list[]: 	"truck.dealer_map"
 	screen_access_list[]: 	"truck.dealeronline"
-	screen_access_list[]:	"trailer.dealer"
-	screen_access_list[]:	"trailer.dealer.online"
+	screen_access_list[]:		"trailer.dealer"
+	screen_access_list[]:		"trailer.dealer.online"
 }
 
 bank: .bank
 {
-	money_account: 1000000
+	money_account: 10000
 	app_enabled: false
 	loans: 1
 	loans[0]: .loan

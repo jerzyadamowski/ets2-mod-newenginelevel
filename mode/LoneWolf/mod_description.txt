@@ -2,21 +2,21 @@ Name: [green]Lone Wolf[normal]
 Version: [green]1.0[normal] by [red]Zwaua[normal]
 Compatibility: [red]1.40+[normal]
 
-[red]Use only with new game! If you use it with current game doesnt make sense and break your game.
-[orange]1.0
-[normal]Starts with loan
-[normal]Hard to hire, hard to buy garage
+[red]Use only with new game! If you use it with current game it will break your game.
+[orange]Works with the FRESH start and the highest mod priority
+[red]Wont work with other economy modes
 
-[orange]Works with fresh start and highest mod priority
-
-[red]- market jobs ~= 18 Euro / km revenue
-[red]- quick jobs ~= 6 Euro / km revenue
+[red]- Market jobs ~= 18 Euro / km revenue
+[red]- Quick jobs ~= 6 Euro / km revenue
 [red]- >1000% fines
-[red]- new levels assign for the unlocked engine from 10 to 40
+[red]- New levels assign for the unlocked engine from 10 to 40
 
-[green]+ experience xp x2
-[green]+ parking bonuses xp x4
+[green]+ Experience xp x2
+[green]+ Parking bonuses xp x4
+[green]+ +2% per level
 
-[purple]! starts with the 1 MILLION Euro Loan with the 150% interest rate
-[purple]! hard to hire (1.2M hire cost)
-[purple]! hard to rent/buy garage (640K/480K cost)
+[red]! Starts with the 1 MILLION Euro Loan with the 150% interest rate
+[red]! Hard to hire (1.2M hire cost)
+[red]! Hard to rent/buy garage (640K/480K cost)
+
+If you know how to prevent buying garages or prevent hiring drivers let me know. Maybe i can tune it little bit up.

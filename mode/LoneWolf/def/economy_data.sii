@@ -143,7 +143,7 @@ economy_data : economy.data.storage
 
 	exp_cargo_delivery: 	2.0		# per km of real world
 	exp_free_roam: 		0.5		# per km of real world
-	exp_road_discovery:	2.0		# per km of real world
+	exp_road_discovery:	0.8		# per km of real world
 
 //	exp_late_delivery: 	0.4		# def -40% 	
 	exp_perfect_delivery: 	0.3		# def +24% 	

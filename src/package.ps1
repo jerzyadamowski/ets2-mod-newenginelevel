@@ -66,7 +66,7 @@ foreach ($out in $outDirectories) {
   Copy-Item -Path "$dirOut\def" -Destination "$workshopDir\$($out.Name)\default\def" -Recurse -Force
 
   If ((test-path $dirOut)) {
-    #Remove-Item -Path $dirOut -Force -Recurse
+    Remove-Item -Path $dirOut -Force -Recurse
   }
 }
 

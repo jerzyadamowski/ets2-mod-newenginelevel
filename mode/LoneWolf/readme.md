@@ -7,7 +7,7 @@ Solo grind.
 
 Works with the FRESH start and the highest mod priority
 
-Version: 1.3 by Zwaua
+Version: 1.4 by Zwaua
 Compatibility: 1.40+
 
 [red]Use only with new game! If you use it with current game it will break your game.
@@ -18,7 +18,6 @@ Compatibility: 1.40+
 [red]- >1000% fines
 [red]- New levels assign for the unlocked engine from 10 to 40
 
-[green]+ Experience xp x2
 [green]+ Parking bonuses xp x4
 [green]+ +2% per level
 

@@ -115,17 +115,17 @@ economy_data : economy.data.storage
 	reward_bonus_long_dist[4]: 0.01
 	reward_bonus_long_dist[5]: 0.01
 
-	reward_bonus_valuable[0]: 0.05
-	reward_bonus_valuable[1]: 0.04
-	reward_bonus_valuable[2]: 0.03
-	reward_bonus_valuable[3]: 0.02
+	reward_bonus_valuable[0]: 0.01
+	reward_bonus_valuable[1]: 0.01
+	reward_bonus_valuable[2]: 0.01
+	reward_bonus_valuable[3]: 0.01
 	reward_bonus_valuable[4]: 0.01
 	reward_bonus_valuable[5]: 0.01
 
-	reward_bonus_fragile[0]: 0.05
-	reward_bonus_fragile[1]: 0.04
-	reward_bonus_fragile[2]: 0.03
-	reward_bonus_fragile[3]: 0.02
+	reward_bonus_fragile[0]: 0.01
+	reward_bonus_fragile[1]: 0.01
+	reward_bonus_fragile[2]: 0.01
+	reward_bonus_fragile[3]: 0.01
 	reward_bonus_fragile[4]: 0.01
 	reward_bonus_fragile[5]: 0.01
 
@@ -141,7 +141,7 @@ economy_data : economy.data.storage
 #  Experience points
 	free_roam_report_limit: 100
 
-	exp_cargo_delivery: 	2.0		# per km of real world
+	exp_cargo_delivery: 	1.0		# per km of real world
 	exp_free_roam: 		0.5		# per km of real world
 	exp_road_discovery:	0.8		# per km of real world
 

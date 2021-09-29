@@ -7,7 +7,7 @@ Solo grind.
 
 Works with the FRESH start and the highest mod priority
 
-Version: 1.4 by Zwaua
+Version: 1.5 by Zwaua
 Compatibility: 1.40+
 
 [red]Use only with new game! If you use it with current game it will break your game.
@@ -22,7 +22,7 @@ Compatibility: 1.40+
 [green]+ +2% per level
 
 [orange]! Starts with the 1 MILLION Euro Loan with the 150% interest rate
-[orange]! Hard to hire (1.2M hire cost)
+[orange]! Hard to hire (2.4M hire cost)
 [orange]! Hard to rent/buy garage (640K/480K cost)
 
 [normal]If you know how to prevent buying garages or prevent hiring drivers let me know. Maybe i can tune it little bit up to raise difficult level.

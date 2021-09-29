@@ -27,7 +27,7 @@ economy_data : economy.data.storage
 	late_delivery_max_overtime[1]: 720	# 12 hours for "normal" deliveries
 	late_delivery_max_overtime[2]: 240	# 4 hours for "urgent" deliveries
 
-	simulation_avg_speed: 62.0	# km/h
+	simulation_avg_speed: 50.0	# km/h
 
 	default_time_zone: 120		# +2 hours
 	default_time_zone_name: "CEST"
@@ -108,10 +108,10 @@ economy_data : economy.data.storage
 	max_eco_consumption_drop[4]: (0.3, 0.3)	
 	max_eco_consumption_drop[5]: (0.35, 0.35)	# Maximum consumption drop is 0.99.
 
-	reward_bonus_long_dist[0]: 0.05
-	reward_bonus_long_dist[1]: 0.04
-	reward_bonus_long_dist[2]: 0.03
-	reward_bonus_long_dist[3]: 0.02
+	reward_bonus_long_dist[0]: 0.03
+	reward_bonus_long_dist[1]: 0.02
+	reward_bonus_long_dist[2]: 0.02
+	reward_bonus_long_dist[3]: 0.01
 	reward_bonus_long_dist[4]: 0.01
 	reward_bonus_long_dist[5]: 0.01
 
@@ -129,10 +129,10 @@ economy_data : economy.data.storage
 	reward_bonus_fragile[4]: 0.01
 	reward_bonus_fragile[5]: 0.01
 
-	reward_bonus_urgent[0]: 0.05
-	reward_bonus_urgent[1]: 0.04
-	reward_bonus_urgent[2]: 0.03
-	reward_bonus_urgent[3]: 0.02
+	reward_bonus_urgent[0]: 0.02
+	reward_bonus_urgent[1]: 0.02
+	reward_bonus_urgent[2]: 0.01
+	reward_bonus_urgent[3]: 0.01
 	reward_bonus_urgent[4]: 0.01
 	reward_bonus_urgent[5]: 0.01
 

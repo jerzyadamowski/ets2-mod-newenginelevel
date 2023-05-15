@@ -7,7 +7,7 @@ Solo grind.
 
 Works with the FRESH start and the highest mod priority
 
-Version: 2.0 by Zwaua
+Version: 2.1 by Zwaua
 Compatibility: 1.47+
 
 [red]Use only with new game! If you use it with current game it will break your game.
@@ -17,9 +17,11 @@ Compatibility: 1.47+
 [red]- Quick jobs ~= 6 Euro / km revenue
 [red]- >1000% fines
 [red]- New levels assign for the unlocked engine from 10 to 40
+[red]- penalties for damaged delivery
 
 [green]+ Parking bonuses xp x4
 [green]+ +6% per level
+[green]+ Extra exp bonuses for delivery
 
 [orange]! Starts with the 1 MILLION Euro Loan with the 150% interest rate
 [orange]! Hard to hire (2.4M hire cost)

@@ -7,7 +7,7 @@ Solo grind.
 
 Works with the FRESH start and the highest mod priority
 
-Version: 2.2 by Zwaua
+Version: 2.3 by Zwaua
 Compatibility: 1.47+
 
 [red]Use only with new game! If you use it with current game it will break your game.

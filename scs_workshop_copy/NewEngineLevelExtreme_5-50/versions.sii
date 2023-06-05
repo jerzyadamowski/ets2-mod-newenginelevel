@@ -1,7 +1,0 @@
-SiiNunit
-{
-package_version_info : .default
-{
-	package_name: "default"
-}
-}

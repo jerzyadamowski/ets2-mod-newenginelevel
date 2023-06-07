@@ -2,13 +2,13 @@
 {
 economy_data : economy.data.storage
 {
-	truck_refund: 		0.35	# 35% of original price
+	truck_refund: 		0.80	# 80% of original price
 
 	# Base revenue per km in game native currency.
 	revenue_per_km_base: 15
 
 	price_small_garage: 640000
-	price_garage_upgrade: 480000
+	price_garage_upgrade: 300000
 
 	garage_prod_plan_tiny: 20000
 	garage_prod_plan_small: 150000

@@ -2,6 +2,11 @@ Name: Lone Wolf - Balanced.
 Version: 3.0 by Zwaua
 Compatibility: 1.47+
 
+[red]REWORKED! 
+[red]Its harder to use best trucks, they are now accesible from 15 to 50 (prev 10 to 40)
+[red]Easy to change trucks (you loose only 10%)
+[red]Easy to hire and expand garage(Hire: 2.4M => 600K, Uprade: 480K => 300K)
+
 The MEDIUM difficulty Economy Mod with the longplay objective mostly for solo.
 ----
 Here is summary how this mod works. Moslty i try to balance IMHO thinks that game is too easy but this IS NOT THE REALISTIC MODE.
@@ -12,14 +17,12 @@ Second, Hiring is OP in this game so here is there is hard to hire someone (600K
 Third, garage will cost you: small: 640K, upgrade: 300K
 Fourth, i replaced levels for every engine to balance all trucks. In human it means i prepare formulas that you will use trucks from worst to best. And not because you wanted, but becasue you have to.
 Now you can get your first truck from 15 level and more powerful configuration you can get at 50. Details you can get below.
-Fifth, offences and police are tweak to more realistic.
+Fifth, offences and police are tweak to more realistic. You dont have to play reckless simulation delivery is lowered from 62km/h to 50km/h.
 Sixth, Income is one-third orginal income.
 Seventh, A lot of XP for types of cargo, travelled distance, parking ability.
 Eighth, cargo is fragile so it cost lot of XP/money.
 Nineth, loans have huge interest rate.
 Tenth, works well only with highest priority around other economy mods.
-
-
 
 THIS IS WHEN TRUCKS ARE OPEN FOR YOU:
 DAFs from 18-19 level.

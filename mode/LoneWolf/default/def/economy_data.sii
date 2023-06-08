@@ -2,7 +2,7 @@
 {
 economy_data : economy.data.storage
 {
-	truck_refund: 		0.80	# 80% of original price
+	truck_refund: 		0.80	# 90% of original price
 
 	# Base revenue per km in game native currency.
 	revenue_per_km_base: 15

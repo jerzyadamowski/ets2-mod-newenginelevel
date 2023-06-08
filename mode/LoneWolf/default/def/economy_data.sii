@@ -11,12 +11,12 @@ economy_data : economy.data.storage
 	price_garage_upgrade: 300000
 
 	garage_prod_plan_tiny: 20000
-	garage_prod_plan_small: 150000
-	garage_prod_plan_large: 300000
+	garage_prod_plan_small: 60000
+	garage_prod_plan_large: 100000
 
 	fuel_discount_in_garage: 0.15	# 15%
 
-	truck_count_for_online:	5	# number of owned trucks to unlock buying online feature
+	truck_count_for_online:	1	# number of owned trucks to unlock buying online feature
 
 	abandoned_job_fine: 12000
 
@@ -74,7 +74,7 @@ economy_data : economy.data.storage
 	driver_revenue_coef_per_km: 0.15 #best: 0.15		# Revenue coefficient used during quick job and drivers jobs.
   driver_cargo_market_revenue_coef_per_km: 0.18 #best: 0.18 # Revenue coefficient used during cargo market jobs for drivers.
 
-	driver_hire_cost: 2400000		# Euro
+	driver_hire_cost: 600000		# Euro
 
 	free_driver_level_cap: 30	# don't grow offered drivers higher than this level
 	driver_offer_scrap_prob: 0.5

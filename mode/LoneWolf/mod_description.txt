@@ -1,30 +1,34 @@
-Name: Lone Wolf
-
-The MEDIUM difficulty Economy Mod with the longplay objective.
-Starts with 1M Euro loan.
-Limited options to hire and buy garages.
-Solo grind.
-
-Works with the FRESH start and the highest mod priority
-
-Version: 2.4 by Zwaua
+Name: Lone Wolf - Balanced.
+Version: 3.0 by Zwaua
 Compatibility: 1.47+
 
-[red]Use only with new game! If you use it with current game it will break your game.
-[red]Wont work with other economy modes
+The MEDIUM difficulty Economy Mod with the longplay objective mostly for solo.
+----
+Here is summary how this mod works. Moslty i try to balance IMHO thinks that game is too easy but this IS NOT THE REALISTIC MODE.
+I want you to have a lot of objectives without attending a second job.
 
-[red]- Market jobs ~= 18 Euro / km revenue
-[red]- Quick jobs ~= 6 Euro / km revenue
-[red]- >1000% fines
-[red]- New levels assign for the unlocked engine from 10 to 40
-[red]- penalties for damaged delivery
+First, you have a huge debt in the bank at the start. 1000000 Euro (Aprox. 4300Euro over 2800 days).
+Second, Hiring is OP in this game so here is there is hard to hire someone (600K Euro)
+Third, garage will cost you: small: 640K, upgrade: 300K
+Fourth, i replaced levels for every engine to balance all trucks. In human it means i prepare formulas that you will use trucks from worst to best. And not because you wanted, but becasue you have to.
+Now you can get your first truck from 15 level and more powerful configuration you can get at 50. Details you can get below.
+Fifth, offences and police are tweak to more realistic.
+Sixth, Income is one-third orginal income.
+Seventh, A lot of XP for types of cargo, travelled distance, parking ability.
+Eighth, cargo is fragile so it cost lot of XP/money.
+Nineth, loans have huge interest rate.
+Tenth, works well only with highest priority around other economy mods.
 
-[green]+ Parking bonuses xp x4
-[green]+ +6% per level
-[green]+ Extra exp bonuses for delivery
 
-[orange]! Starts with the 1 MILLION Euro Loan with the 150% interest rate
-[orange]! Hard to hire (2.4M hire cost)
-[orange]! Hard to rent/buy garage (640K/300K cost)
 
-[normal]If you know how to prevent buying garages or prevent hiring drivers let me know. Maybe i can tune it little bit up to raise difficult level.
+THIS IS WHEN TRUCKS ARE OPEN FOR YOU:
+DAFs from 18-19 level.
+IVECOs from 19 level.
+MANs from 26-27 level.
+MERCEDES from 22-27 level.
+RENAULTs from 15-21 level.
+SCANIAs from 31-31 level.
+VOLVOs from 34 level.
+
+I use math to set them quite fair evenly.
+HAPPY EXPLORING.

@@ -7,8 +7,8 @@ Solo grind.
 
 Works with the FRESH start and the highest mod priority
 
-Version: 1.5 by Zwaua
-Compatibility: 1.40+
+Version: 2.4 by Zwaua
+Compatibility: 1.47+
 
 [red]Use only with new game! If you use it with current game it will break your game.
 [red]Wont work with other economy modes
@@ -17,12 +17,14 @@ Compatibility: 1.40+
 [red]- Quick jobs ~= 6 Euro / km revenue
 [red]- >1000% fines
 [red]- New levels assign for the unlocked engine from 10 to 40
+[red]- penalties for damaged delivery
 
 [green]+ Parking bonuses xp x4
-[green]+ +2% per level
+[green]+ +6% per level
+[green]+ Extra exp bonuses for delivery
 
 [orange]! Starts with the 1 MILLION Euro Loan with the 150% interest rate
 [orange]! Hard to hire (2.4M hire cost)
-[orange]! Hard to rent/buy garage (640K/480K cost)
+[orange]! Hard to rent/buy garage (640K/300K cost)
 
-[normal]If you know how to prevent buying garages or prevent hiring drivers let me know. Maybe i can tune it little bit up to raise difficulty level.
+[normal]If you know how to prevent buying garages or prevent hiring drivers let me know. Maybe i can tune it little bit up to raise difficult level.

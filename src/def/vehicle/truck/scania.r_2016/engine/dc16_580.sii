@@ -4,11 +4,12 @@ accessory_engine_data : dc16_580.scania.r_2016.engine
 {
 	name: "DC16 117 580 Euro 6 V8"
 	price: 25320
-	unlock: 18
+	unlock: 29
 	info[]: "580 @@hp@@ (427@@kw@@)"
 	info[]: "3@@dg@@000 @@nm@@"
 	info[]: "950-1@@dg@@350 @@rpm@@"
 	icon: "engine_scania_dc16"
+	part_type: factory
 
 	torque: 3000
 	torque_curve[]: (300, 0.1)

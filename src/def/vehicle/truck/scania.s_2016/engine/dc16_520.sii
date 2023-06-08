@@ -4,11 +4,12 @@ accessory_engine_data : dc16_520.scania.s_2016.engine
 {
 	name: "DC16 116 520 Euro 6 V8"
 	price: 23760
-	unlock: 15
+	unlock: 26
 	info[]: "520 @@hp@@ (382@@kw@@)"
 	info[]: "2@@dg@@700 @@nm@@"
 	info[]: "1@@dg@@000-1@@dg@@300 @@rpm@@"
 	icon: "engine_scania_dc16"
+	part_type: factory
 
 	torque: 2700
 	torque_curve[]: (300, 0.1)

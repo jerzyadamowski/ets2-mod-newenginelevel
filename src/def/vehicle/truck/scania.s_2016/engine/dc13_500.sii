@@ -4,11 +4,12 @@ accessory_engine_data : dc13_500.scania.s_2016.engine
 {
 	name: "DC13 155 500 Euro 6"
 	price: 20760
-	unlock: 12
+	unlock: 25
 	info[]: "500 @@hp@@ (368@@kw@@)"
 	info[]: "2@@dg@@550 @@nm@@"
 	info[]: "1@@dg@@000-1@@dg@@300 @@rpm@@"
 	icon: "engine_scania_dc13"
+	part_type: factory
 
 	torque: 2550
 	torque_curve[]: (300, 0.1)

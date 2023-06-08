@@ -4,11 +4,12 @@ accessory_engine_data : dc16_730.scania.s_2016.engine
 {
 	name: "DC16 107 730 Euro 6 V8"
 	price: 29100
-	unlock: 25
+	unlock: 37
 	info[]: "730 @@hp@@ (537@@kw@@)"
 	info[]: "3@@dg@@500 @@nm@@"
 	info[]: "1@@dg@@000-1@@dg@@400 @@rpm@@"
 	icon: "engine_scania_dc16"
+	part_type: factory
 
 	torque: 3500
 	torque_curve[]: (300, 0.1)

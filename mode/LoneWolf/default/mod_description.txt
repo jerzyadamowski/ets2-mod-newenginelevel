@@ -4,7 +4,7 @@ Compatibility: 1.47+
 
 [red]REWORKED! 
 [red]Its harder to use best trucks, they are now accesible from 15 to 50 (prev 10 to 40)
-[red]Easy to change trucks (you loose only 10%)
+[red]Easy to change trucks (you loose only 20%)
 [red]Easy to hire and expand garage(Hire: 2.4M => 600K, Uprade: 480K => 300K)
 
 The MEDIUM difficulty Economy Mod with the longplay objective mostly for solo.

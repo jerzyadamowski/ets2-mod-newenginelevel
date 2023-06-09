@@ -4,7 +4,7 @@ accessory_engine_data : dc16_500.scania.streamline.engine
 {
 	name: "DC16 19 500 Euro 5 V8"
 	price: 21132
-	unlock: 24
+	unlock: 38
 	info[]: "500 @@hp@@ (368@@kw@@)"
 	info[]: "2@@dg@@500 @@nm@@"
 	info[]: "1@@dg@@000-1@@dg@@350 @@rpm@@"

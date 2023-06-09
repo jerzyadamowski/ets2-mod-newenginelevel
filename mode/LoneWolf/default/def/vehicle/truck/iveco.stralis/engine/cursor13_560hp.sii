@@ -4,7 +4,7 @@ accessory_engine_data : cur13_560.iveco.stralis.engine
 {
 	name: "Cursor 13 560"
 	price: 17220
-	unlock: 23
+	unlock: 31
 	info[]: "560 @@hp@@ (412@@kw@@)"
 	info[]: "2@@dg@@500 @@nm@@"
 	info[]: "1@@dg@@000-1@@dg@@575 @@rpm@@"

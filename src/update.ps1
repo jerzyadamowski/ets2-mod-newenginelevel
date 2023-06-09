@@ -20,6 +20,8 @@ foreach ($dir in $modeDirectories) {
     if ( [System.String]::IsNullOrWhiteSpace($row."Engine HP")) {
       $currentTruckPathSource = "$((Resolve-Path .\).Path)\src\def\vehicle\truck\$($row."Truck Name")\engine\"
       $currentTruckPathDest = "$((Resolve-Path .\).Path)\out\$($dir.Name)\def\vehicle\truck\$($row."Truck Name")\engine\"
+      $currentModeTruckPathDest = "$((Resolve-Path .\).Path)\mode\$($dir.Name)\default\def\vehicle\truck\$($row."Truck Name")\engine\"
+      
       continue;
     }
 
@@ -27,6 +29,7 @@ foreach ($dir in $modeDirectories) {
     if ( [System.Int32]::Parse($row."Engine HP") -gt 0) {
       $currentEnginePathSource = "$currentTruckPathSource$($row."Truck Name")"
       $currentEnginePathDest = "$currentTruckPathDest$($row."Truck Name")"
+      $currentModeEnginePathDest = "$currentModeTruckPathDest$($row."Truck Name")"
     }
 
     #if no more record end here
@@ -42,7 +45,13 @@ foreach ($dir in $modeDirectories) {
       New-Item -ItemType Directory -Force -Path $currentTruckPathDest | Out-Null
     }
 
+    #write content to file
+    If (!(test-path $currentModeTruckPathDest)) {
+      New-Item -ItemType Directory -Force -Path $currentModeTruckPathDest | Out-Null
+    }
+
     [System.IO.File]::WriteAllLines($currentEnginePathDest, $newContent) | Out-Null
+    [System.IO.File]::WriteAllLines($currentModeEnginePathDest, $newContent) | Out-Null
   }
 }
 

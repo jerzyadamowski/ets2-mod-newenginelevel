@@ -4,7 +4,7 @@ accessory_engine_data : d16g700.volvo.fh16_2012.engine
 {
 	name: "D16G700 Euro 5 EEV"
 	price: 23796
-	unlock: 37
+	unlock: 48
 	info[]: "700 @@hp@@ (515@@kw@@)"
 	info[]: "3@@dg@@150 @@nm@@"
 	info[]: "1@@dg@@000-1@@dg@@550 @@rpm@@"

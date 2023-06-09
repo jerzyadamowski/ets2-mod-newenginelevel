@@ -4,7 +4,7 @@ accessory_engine_data : d2676_397.man.tgx.engine
 {
 	name: "D2676 397"
 	price: 17040
-	unlock: 24
+	unlock: 37
 	info[]: "540 @@hp@@ (397@@kw@@)"
 	info[]: "2@@dg@@500 @@nm@@"
 	info[]: "1@@dg@@100-1@@dg@@400 @@rpm@@"

@@ -7,15 +7,16 @@ Compatibility: 1.47+
 [red]REWORKED! 
 [red]Its harder to use best trucks, they are now accesible from 15 to 50 (prev 10 to 40)
 [red]Easy to change trucks (you loose only 25%)
-[red]Easy to hire and expand garage(Hire: 2.4M => 600K, Uprade: 480K => 300K)
+[red]Easy to hire and expand garage(Hire: 2.4M to 600K, Uprade: 480K to 300K)
 
 [normal]
 
 ----
-Here is summary how this mod works. Moslty i try to balance IMHO thinks that game is too easy but this IS NOT THE REALISTIC MODE.
-I want you to have a lot of objectives without attending a second job.
+Here is summary how this mod works: Most mechanics in game is OP like loans or AI drivers or best trucks. That why i change it little bit with these areas to make this game challenging.
+I want you to have a lot of objectives without attending a second job. Thats why this isnt REALISTIC ECONOMY MOD.
 
-First, you have a huge debt in the bank at the start. 1000000 Euro (Approx. 4121Euro over 2800 days).
+----
+First, you have a huge debt in the bank at the start. 1 000 000 Euro (Approx. 4121Euro over 2800 days).
 Second, Hiring is OP in this game so here is there is hard to hire someone (600K Euro). Tip: Dont hire without truck.
 Third, garage will cost you: small: 640K, upgrade: 300K
 Fourth, i replaced levels for every engine to balance all trucks. In human it means i prepare formulas that you will use trucks from worst to best. And not because you wanted, but becasue you have to.

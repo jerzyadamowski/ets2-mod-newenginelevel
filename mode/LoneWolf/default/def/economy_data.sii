@@ -2,7 +2,7 @@
 {
 economy_data : economy.data.storage
 {
-	truck_refund: 		0.80	# 80% of original price
+	truck_refund: 		0.75	# 75% of original price
 
 	# Base revenue per km in game native currency.
 	revenue_per_km_base: 15
@@ -27,7 +27,7 @@ economy_data : economy.data.storage
 	late_delivery_max_overtime[1]: 720	# 12 hours for "normal" deliveries
 	late_delivery_max_overtime[2]: 240	# 4 hours for "urgent" deliveries
 
-	simulation_avg_speed: 50.0	# km/h
+	simulation_avg_speed: 45.0	# km/h
 
 	default_time_zone: 120		# +2 hours
 	default_time_zone_name: "CEST"

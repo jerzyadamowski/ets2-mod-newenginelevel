@@ -4,7 +4,7 @@ Compatibility: 1.47+
 
 [red]REWORKED! 
 [red]Its harder to use best trucks, they are now accesible from 15 to 50 (prev 10 to 40)
-[red]Easy to change trucks (you loose only 20%)
+[red]Easy to change trucks (you loose only 25%)
 [red]Easy to hire and expand garage(Hire: 2.4M => 600K, Uprade: 480K => 300K)
 
 The MEDIUM difficulty Economy Mod with the longplay objective mostly for solo.
@@ -13,11 +13,11 @@ Here is summary how this mod works. Moslty i try to balance IMHO thinks that gam
 I want you to have a lot of objectives without attending a second job.
 
 First, you have a huge debt in the bank at the start. 1000000 Euro (Aprox. 4121Euro over 2800 days).
-Second, Hiring is OP in this game so here is there is hard to hire someone (600K Euro)
+Second, Hiring is OP in this game so here is there is hard to hire someone (600K Euro). Tip: Dont hire without truck.
 Third, garage will cost you: small: 640K, upgrade: 300K
 Fourth, i replaced levels for every engine to balance all trucks. In human it means i prepare formulas that you will use trucks from worst to best. And not because you wanted, but becasue you have to.
 Now you can get your first truck from 15 level and more powerful configuration you can get at 50. Details you can get below.
-Fifth, offences and police are tweak to more realistic. You dont have to play reckless simulation delivery is lowered from 62km/h to 50km/h.
+Fifth, offences and police are tweak to more realistic. You dont have to play reckless simulation delivery is lowered from 62km/h to 45km/h.
 Sixth, Income is one-third orginal income.
 Seventh, A lot of XP for types of cargo, travelled distance, parking ability.
 Eighth, cargo is fragile, when you scratch it probably it will cost you all XP and income.

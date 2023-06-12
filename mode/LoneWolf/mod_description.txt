@@ -1,8 +1,8 @@
-Name: Lone Wolf
+Name: Lone Wolf (Survival Economy Mod)
 Version: 3.0 by Zwaua
 Compatibility: 1.47+
 
-[green] The MEDIUM difficulty Economy Mod with the survival objective for solo play.
+[green] Survival Economy Mod for solo play.
 
 [red]REWORKED! 
 [red]Its harder to use best trucks, they are now accesible from 15 to 50 (prev 10 to 40)

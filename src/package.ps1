@@ -63,7 +63,8 @@ foreach ($out in $outDirectories) {
 
   Copy-Item -Path "$((Resolve-Path .\).Path)\mode\$($out.Name)\workshop\*" -Destination "$workshopDir\$($out.Name)"  -Recurse -Force
   Copy-Item -Path "$dirOut\*" -Destination "$workshopDir\$($out.Name)\default\" -Force
-  Copy-Item -Path "$dirOut\def" -Destination "$workshopDir\$($out.Name)\default\def" -Recurse -Force
+  Copy-Item -Path "$dirOut\def" -Destination "$workshopDir\$($out.Name)\default\" -Recurse -Force
+  Copy-Item -Path "$((Resolve-Path .\).Path)\mode\$($out.Name)\image_steam.jpg" -Destination "$workshopDir\$($out.Name).jpg"  -Recurse -Force
 
   If ((test-path $dirOut)) {
     Remove-Item -Path $dirOut -Force -Recurse

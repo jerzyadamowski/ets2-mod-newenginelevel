@@ -4,11 +4,12 @@ accessory_engine_data : dti13_440.renault.t.engine
 {
 	name: "DTI 13 440 Euro 6"
 	price: 16560
-	unlock: 12
+	unlock: 18
 	info[]: "440 @@hp@@ (324@@kw@@)"
 	info[]: "2@@dg@@200 @@nm@@"
 	info[]: "900-1@@dg@@404 @@rpm@@"
 	icon: "engine_renault_dti13"
+	part_type: factory
 
 	torque: 2200
 	torque_curve[]: (300, 0)

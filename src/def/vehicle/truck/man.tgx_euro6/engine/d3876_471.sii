@@ -4,11 +4,12 @@ accessory_engine_data : d3876_471.man.tgx_euro6.engine
 {
 	name: "D3876 LF03 471 Euro 6"
 	price: 21480
-	unlock: 20
+	unlock: 30
 	info[]: "640 @@hp@@ (471@@kw@@)"
 	info[]: "3@@dg@@000 @@nm@@"
 	info[]: "930-1@@dg@@400 @@rpm@@"
 	icon: "engine/man_d3876"
+	part_type: factory
 
 	torque: 3000
 	torque_curve[]: (300, 0)
@@ -25,5 +26,6 @@ accessory_engine_data : d3876_471.man.tgx_euro6.engine
 @include "sound_hi.sui"
 
 	overrides[]: "/def/vehicle/truck/man.tgx_euro6/badge_b/badge_xx640.sii"
+	overrides[]: "/def/vehicle/truck/man.tgx_euro6/accessory/badge_c/none.sii"
 }
 }

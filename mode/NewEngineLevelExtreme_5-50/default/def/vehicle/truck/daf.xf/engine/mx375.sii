@@ -11,6 +11,7 @@ accessory_engine_data : mx375.daf.xf.engine
 	info[]: "1@@dg@@000-1@@dg@@400 @@rpm@@"
 
 	icon: "engine_01"
+	part_type: factory
 	torque: 2500
 	volume: 12.9
 	rpm_limit: 2150

@@ -2,21 +2,21 @@
 {
 economy_data : economy.data.storage
 {
-	truck_refund: 		0.35	# 35% of original price
+	truck_refund: 		0.75	# 75% of original price
 
 	# Base revenue per km in game native currency.
 	revenue_per_km_base: 15
 
 	price_small_garage: 640000
-	price_garage_upgrade: 480000
+	price_garage_upgrade: 300000
 
 	garage_prod_plan_tiny: 20000
-	garage_prod_plan_small: 150000
-	garage_prod_plan_large: 300000
+	garage_prod_plan_small: 60000
+	garage_prod_plan_large: 100000
 
 	fuel_discount_in_garage: 0.15	# 15%
 
-	truck_count_for_online:	5	# number of owned trucks to unlock buying online feature
+	truck_count_for_online:	1	# number of owned trucks to unlock buying online feature
 
 	abandoned_job_fine: 12000
 
@@ -27,7 +27,7 @@ economy_data : economy.data.storage
 	late_delivery_max_overtime[1]: 720	# 12 hours for "normal" deliveries
 	late_delivery_max_overtime[2]: 240	# 4 hours for "urgent" deliveries
 
-	simulation_avg_speed: 50.0	# km/h
+	simulation_avg_speed: 45.0	# km/h
 
 	default_time_zone: 120		# +2 hours
 	default_time_zone_name: "CEST"
@@ -74,7 +74,7 @@ economy_data : economy.data.storage
 	driver_revenue_coef_per_km: 0.15 #best: 0.15		# Revenue coefficient used during quick job and drivers jobs.
   driver_cargo_market_revenue_coef_per_km: 0.18 #best: 0.18 # Revenue coefficient used during cargo market jobs for drivers.
 
-	driver_hire_cost: 2400000		# Euro
+	driver_hire_cost: 600000		# Euro
 
 	free_driver_level_cap: 30	# don't grow offered drivers higher than this level
 	driver_offer_scrap_prob: 0.5

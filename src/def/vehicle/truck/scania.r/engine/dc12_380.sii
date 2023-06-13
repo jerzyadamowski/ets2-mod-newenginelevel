@@ -4,7 +4,7 @@ accessory_engine_data : dc12_380.scania.r.engine
 {
 	name: "DC12 18 380 Euro 5"
 	price: 14520
-	unlock: 8
+	unlock: 17
 	info[]: "380 @@hp@@ (280@@kw@@)"
 	info[]: "1@@dg@@900 @@nm@@"
 	info[]: "1@@dg@@100-1@@dg@@400 @@rpm@@"

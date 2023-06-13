@@ -4,7 +4,7 @@ accessory_engine_data : cur11_420.iveco.hiway.engine
 {
 	name: "Cursor 11 420"
 	price: 15480
-	unlock: 16
+	unlock: 24
 	info[]: "420 @@hp@@ (309@@kw@@)"
 	info[]: "1@@dg@@900 @@nm@@"
 	info[]: "1@@dg@@050-1@@dg@@550 @@rpm@@"

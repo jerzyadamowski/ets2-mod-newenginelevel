@@ -37,9 +37,9 @@ foreach ($out in $outDirectories) {
     Remove-Item -Path $fileOutScs -Force
   }
 
-  Copy-Item -Path "$inputDir\def" -Destination $dirOut -Recurse
-  If ((test-path "$((Resolve-Path .\).Path)\mode\$($out.Name)\def")) {
-    Copy-Item -Path "$((Resolve-Path .\).Path)\mode\$($out.Name)\def" -Destination $dirOut -Recurse -Force
+  Copy-Item -Path "$($inputDir)\def" -Destination $dirOut -Recurse
+  If ((test-path "$((Resolve-Path .\).Path)\mode\$($out.Name)\default\def")) {
+    Copy-Item -Path "$((Resolve-Path .\).Path)\mode\$($out.Name)\default\def" -Destination $dirOut -Recurse -Force
   }
   Copy-Item -Path "$((Resolve-Path .\).Path)\mode\$($out.Name)\manifest.sii" -Destination $dirOut
   Copy-Item -Path "$((Resolve-Path .\).Path)\mode\$($out.Name)\mod_description.txt" -Destination $dirOut

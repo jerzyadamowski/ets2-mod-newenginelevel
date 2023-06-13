@@ -13,7 +13,7 @@ police_data : police.data
 	fine_overspeed_step_multiplier: 1.877
 	fine_overspeed_multiplier_limit: 12.5
 
-	fine_amounts[0]: 1000 		# car crash 400
+	fine_amounts[0]: 400 		# car crash 400
 	fine_amounts[1]: 2000 		# avoid sleeping 150
 	fine_amounts[2]: 500 		# wrong way 100
 	fine_amounts[3]: 400 		# speeding (camera) 200

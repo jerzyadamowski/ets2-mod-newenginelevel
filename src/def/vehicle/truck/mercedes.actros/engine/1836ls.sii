@@ -4,7 +4,7 @@ accessory_engine_data : 1836ls.mercedes.actros.engine
 {
 	name: "OM 541 V6 BlueTec5 265"
 	price: 10800
-	unlock: 6
+	unlock: 15
 	info[]: "360 @@hp@@ (265@@kw@@)"
 	info[]: "1@@dg@@850 @@nm@@"
 	info[]: "1@@dg@@080 @@rpm@@"

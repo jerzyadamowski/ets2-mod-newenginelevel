@@ -71,8 +71,8 @@ economy_data : economy.data.storage
 	driver_max_cargo_damage: 6.0		# in %, decrease with skill
 	driver_maintenance_cost: (1.8, 3.0) 	# maintenance + insurance, base range in E/km
 	minimal_driver_salary:	600		# fixed part of driver's pay
-	driver_revenue_coef_per_km: 0.15 #best: 0.15		# Revenue coefficient used during quick job and drivers jobs.
-  driver_cargo_market_revenue_coef_per_km: 0.18 #best: 0.18 # Revenue coefficient used during cargo market jobs for drivers.
+	driver_revenue_coef_per_km: 0.24 #last: 0.15		# Revenue coefficient used during quick job and drivers jobs.
+  driver_cargo_market_revenue_coef_per_km: 0.27 #last: 0.18 # Revenue coefficient used during cargo market jobs for drivers.
 
 	driver_hire_cost: 600000		# Euro
 
@@ -97,8 +97,8 @@ economy_data : economy.data.storage
 	skill_distance[5]:	1500
 
 	fixed_revenue: 600
-	revenue_coef_per_km: 0.36 #prev: 0.45# Revenue coefficient per km used during freight market jobs.
-	cargo_market_revenue_coef_per_km: 0.38 #prev: 0.5 # Revenue coefficient per km used during cargo market jobs.
+	revenue_coef_per_km: 0.5 #prev: 0.45# Revenue coefficient per km used during freight market jobs.
+	cargo_market_revenue_coef_per_km: 0.52 #prev: 0.5 # Revenue coefficient per km used during cargo market jobs.
 
 	max_eco_consumption_drop[0]: (0.1, 0.1)	# consumption decreased by 40% (or 60% if driving with trailer) 
 							#  for ecodriving skill maximum
@@ -108,33 +108,33 @@ economy_data : economy.data.storage
 	max_eco_consumption_drop[4]: (0.3, 0.3)	
 	max_eco_consumption_drop[5]: (0.35, 0.35)	# Maximum consumption drop is 0.99.
 
-	reward_bonus_long_dist[0]: 0.03
+	reward_bonus_long_dist[0]: 0.01
 	reward_bonus_long_dist[1]: 0.02
-	reward_bonus_long_dist[2]: 0.02
-	reward_bonus_long_dist[3]: 0.01
-	reward_bonus_long_dist[4]: 0.01
-	reward_bonus_long_dist[5]: 0.01
+	reward_bonus_long_dist[2]: 0.03
+	reward_bonus_long_dist[3]: 0.04
+	reward_bonus_long_dist[4]: 0.05
+	reward_bonus_long_dist[5]: 0.06
 
 	reward_bonus_valuable[0]: 0.01
-	reward_bonus_valuable[1]: 0.01
-	reward_bonus_valuable[2]: 0.01
-	reward_bonus_valuable[3]: 0.01
-	reward_bonus_valuable[4]: 0.01
-	reward_bonus_valuable[5]: 0.01
+	reward_bonus_valuable[1]: 0.02
+	reward_bonus_valuable[2]: 0.03
+	reward_bonus_valuable[3]: 0.04
+	reward_bonus_valuable[4]: 0.05
+	reward_bonus_valuable[5]: 0.06
 
 	reward_bonus_fragile[0]: 0.01
-	reward_bonus_fragile[1]: 0.01
-	reward_bonus_fragile[2]: 0.01
-	reward_bonus_fragile[3]: 0.01
-	reward_bonus_fragile[4]: 0.01
-	reward_bonus_fragile[5]: 0.01
+	reward_bonus_fragile[1]: 0.02
+	reward_bonus_fragile[2]: 0.03
+	reward_bonus_fragile[3]: 0.04
+	reward_bonus_fragile[4]: 0.05
+	reward_bonus_fragile[5]: 0.06
 
-	reward_bonus_urgent[0]: 0.02
+	reward_bonus_urgent[0]: 0.01
 	reward_bonus_urgent[1]: 0.02
-	reward_bonus_urgent[2]: 0.01
-	reward_bonus_urgent[3]: 0.01
-	reward_bonus_urgent[4]: 0.01
-	reward_bonus_urgent[5]: 0.01
+	reward_bonus_urgent[2]: 0.03
+	reward_bonus_urgent[3]: 0.04
+	reward_bonus_urgent[4]: 0.05
+	reward_bonus_urgent[5]: 0.06
 
 	reward_bonus_level: 0.06
 

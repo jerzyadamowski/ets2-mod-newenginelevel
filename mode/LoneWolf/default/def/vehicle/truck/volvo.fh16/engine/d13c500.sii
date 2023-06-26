@@ -4,7 +4,7 @@ accessory_engine_data : d13c500.volvo.fh16.engine
 {
 	name: "D13C500 Euro 5 EEV"
 	price: 17520
-	unlock: 38
+	unlock: 71
 	info[]: "500 @@hp@@ (368@@kw@@)"
 	info[]: "2@@dg@@500 @@nm@@"
 	info[]: "1@@dg@@050-1@@dg@@400 @@rpm@@"

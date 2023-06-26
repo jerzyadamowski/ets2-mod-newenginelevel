@@ -4,7 +4,7 @@ accessory_engine_data : mx11_330.daf.xf_euro6.engine
 {
 	name: "MX-11 330 Euro 6, 2017"
 	price: 15000
-	unlock: 23
+	unlock: 34
 	info[]: "450 @@hp@@ (330@@kw@@)"
 	info[]: "2@@dg@@200/2@@dg@@300 @@nm@@"
 	info[]: "900-1@@dg@@400 @@rpm@@"

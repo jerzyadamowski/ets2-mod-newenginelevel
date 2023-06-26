@@ -4,7 +4,7 @@ accessory_engine_data : d16g750.volvo.fh16.engine
 {
 	name: "D16G750 Euro 5 EEV"
 	price: 25560
-	unlock: 50
+	unlock: 100
 	info[]: "750 @@hp@@ (551@@kw@@)"
 	info[]: "3@@dg@@550 @@nm@@"
 	info[]: "1@@dg@@050-1@@dg@@400 @@rpm@@"

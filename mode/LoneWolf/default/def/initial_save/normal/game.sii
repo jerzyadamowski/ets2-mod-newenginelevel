@@ -50,8 +50,8 @@ bank_loan : .loan {
  amount: 1000000
  original_amount: 1000000
  time_stamp: 600
- interest_rate: 1.25
- duration: 20
+ interest_rate: 1.00
+ duration: 10
 }
 
 

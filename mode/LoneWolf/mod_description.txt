@@ -16,7 +16,7 @@ Here is summary how this mod works: Most mechanics in game is OP like loans or A
 I want you to have a lot of objectives without attending a second job. Thats why this isnt REALISTIC ECONOMY MOD.
 
 ----
-First, you have a huge debt in the bank at the start. 1 000 000 Euro (Approx. 9081Euro over 140 days).
+First, you have a huge debt in the bank at the start. 1 000 000 Euro (Approx. 15841Euro over 70 days).
 Second, Hiring is OP in this game so here is there is hard to hire someone (600K Euro). Tip: Dont hire without truck.
 Third, garage will cost you: small: 640K, upgrade: 300K
 Fourth, i replaced levels for every engine to balance all trucks. In human it means i prepare formulas that you will use trucks from worst to best. And not because you wanted, but becasue you have to.
@@ -26,7 +26,7 @@ Sixth, Income is one-third orginal income.
 Seventh, A lot of XP for types of cargo, travelled distance, parking ability.
 Eighth, cargo is fragile, when you scratch it probably it will cost you all XP and income.
 Nineth, loans have huge interest rate.
-Tenth, works well only with highest priority around other economy mods.
+Tenth, works well only with highest priority around other economy mods and as a new game.
 
 THIS IS WHEN TRUCKS ARE OPEN FOR YOU:
 DAF from 21 level.

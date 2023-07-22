@@ -74,7 +74,7 @@ economy_data : economy.data.storage
 	driver_revenue_coef_per_km: 0.24 #last: 0.15		# Revenue coefficient used during quick job and drivers jobs.
   driver_cargo_market_revenue_coef_per_km: 0.27 #last: 0.18 # Revenue coefficient used during cargo market jobs for drivers.
 
-	driver_hire_cost: 600000		# Euro
+	driver_hire_cost: 188000		# Euro
 
 	free_driver_level_cap: 30	# don't grow offered drivers higher than this level
 	driver_offer_scrap_prob: 0.5

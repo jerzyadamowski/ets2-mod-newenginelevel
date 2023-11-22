@@ -38,5 +38,5 @@ M (Muliplier Key Power for HHP) = 4
 LTKHP (Lowest Temporary Key Horse Power) = MIN(TKHP)
 HTKHP (Higest Temporary Key Horse Power) = MAX(TKHP)
 
-TKHP (Temporary Key Horse Power) = ROUND(HP + LHP + HHP _ M)+ MAX(HP - LHP, 0) _ 2
-NL (New Level) = ROUND(((TKHP - LTKHP)/(HTKHP - LTKHP))\*(LLE - FLE)) + FLE
+TKHP (Temporary Key Horse Power) = ROUND(HP + LHP + HHP x M)+ MAX(HP - LHP, 0) x 2
+NL (New Level) = ROUND(((TKHP - LTKHP)/(HTKHP - LTKHP)) x (LLE - FLE)) + FLE

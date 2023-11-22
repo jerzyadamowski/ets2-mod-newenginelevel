@@ -4,7 +4,7 @@ accessory_engine_data : dc13_360.scania.streamline.engine
 {
 	name: "DC13 114 360 Euro 5"
 	price: 14160
-	unlock: 31
+	unlock: 55
 	info[]: "360 @@hp@@ (265@@kw@@)"
 	info[]: "1@@dg@@850 @@nm@@"
 	info[]: "1@@dg@@000-1@@dg@@300 @@rpm@@"

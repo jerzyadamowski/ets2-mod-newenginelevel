@@ -4,7 +4,7 @@ accessory_engine_data : d2066_265.man.tgx_euro6.engine
 {
 	name: "D2066 LF67 265 Euro 6"
 	price: 8520
-	unlock: 26
+	unlock: 41
 	info[]: "360 @@hp@@ (265@@kw@@)"
 	info[]: "1@@dg@@800 @@nm@@"
 	info[]: "930-1@@dg@@400 @@rpm@@"

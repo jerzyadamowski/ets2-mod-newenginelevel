@@ -4,7 +4,7 @@ accessory_engine_data : mx340.daf.xf.engine
 {
 	name: "PACCAR MX340"
 	price: 16140
-	unlock: 22
+	unlock: 33
 
 	info[]: "460 @@hp@@ (340@@kw@@)"
 	info[]: "2@@dg@@300 @@nm@@"

@@ -4,7 +4,7 @@ accessory_engine_data : d2066_294.man.tgx_euro6.engine
 {
 	name: "D2066 LF61 294 Euro 6"
 	price: 9840
-	unlock: 28
+	unlock: 45
 	info[]: "400 @@hp@@ (294@@kw@@)"
 	info[]: "1@@dg@@900 @@nm@@"
 	info[]: "930-1@@dg@@400 @@rpm@@"

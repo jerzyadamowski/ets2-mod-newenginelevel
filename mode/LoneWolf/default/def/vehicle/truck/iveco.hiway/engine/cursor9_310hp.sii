@@ -4,7 +4,7 @@ accessory_engine_data : cur9_310.iveco.hiway.engine
 {
 	name: "Cursor 9 310"
 	price: 7800
-	unlock: 19
+	unlock: 25
 	info[]: "310 @@hp@@ (228@@kw@@)"
 	info[]: "1@@dg@@300 @@nm@@"
 	info[]: "1@@dg@@100-1@@dg@@675 @@rpm@@"

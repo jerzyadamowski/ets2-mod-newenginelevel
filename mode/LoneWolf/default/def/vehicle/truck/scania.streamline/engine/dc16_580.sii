@@ -4,7 +4,7 @@ accessory_engine_data : dc16_580.scania.streamline.engine
 {
 	name: "DC16 102 580 Euro 6 V8"
 	price: 27300
-	unlock: 42
+	unlock: 80
 	info[]: "580 @@hp@@ (427@@kw@@)"
 	info[]: "2@@dg@@950 @@nm@@"
 	info[]: "1@@dg@@000-1@@dg@@300 @@rpm@@"

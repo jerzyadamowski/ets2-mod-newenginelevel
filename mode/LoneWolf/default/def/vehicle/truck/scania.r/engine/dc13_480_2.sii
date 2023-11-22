@@ -4,7 +4,7 @@ accessory_engine_data : dc13_480_2.scania.r.engine
 {
 	name: "DC13 110 480 Euro 6"
 	price: 20280
-	unlock: 37
+	unlock: 68
 	info[]: "480 @@hp@@ (353@@kw@@)"
 	info[]: "2@@dg@@500 @@nm@@"
 	info[]: "1@@dg@@000-1@@dg@@300 @@rpm@@"

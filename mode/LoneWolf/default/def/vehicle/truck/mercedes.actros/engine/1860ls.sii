@@ -4,7 +4,7 @@ accessory_engine_data : 1860ls.mercedes.actros.engine
 {
 	name: "OM 542 V8 BlueTec5 440"
 	price: 21480
-	unlock: 35
+	unlock: 63
 	info[]: "598 @@hp@@ (440@@kw@@)"
 	info[]: "2@@dg@@800 @@nm@@"
 	info[]: "1@@dg@@080 @@rpm@@"

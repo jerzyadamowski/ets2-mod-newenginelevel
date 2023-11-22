@@ -4,7 +4,7 @@ accessory_engine_data : dc13_490.scania.streamline.engine
 {
 	name: "DC13 125 490 Euro 6"
 	price: 20760
-	unlock: 37
+	unlock: 70
 	info[]: "490 @@hp@@ (360@@kw@@)"
 	info[]: "2@@dg@@550 @@nm@@"
 	info[]: "1@@dg@@000-1@@dg@@300 @@rpm@@"

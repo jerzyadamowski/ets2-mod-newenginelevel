@@ -7,13 +7,14 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export const globalConfig = (): {} => {
-  const configPath = path.resolve(__dirname, "../config.json");
+  const configPath = path.resolve(__dirname, "..", "config.json");
   return JSON.parse(fs.readFileSync(configPath, "utf-8"));
 };
 
-export const modesPath = () => path.resolve(__dirname, "../mode");
-export const outputPath = () => path.resolve(__dirname, "../out");
-export const trucksPath = () => path.resolve(__dirname, "./def/vehicle/truck");
+export const modesPath = () => path.resolve(__dirname, "..", "mode");
+export const outputPath = () => path.resolve(__dirname, "..", "out");
+export const trucksPath = () =>
+  path.resolve(__dirname, "def", "vehicle", "truck");
 export const scanHorsePower = (text: string) => {
   const regex = /info\[\]:\s*"(\d+)\s*@@hp@@/;
   const match = text.match(regex);
@@ -40,14 +41,6 @@ export const copyEngine = (
   engine: string,
   level: number
 ) => {
-  // const truckDestPath = path.join(
-  //   modePath,
-  //   "default/def/vehicle/truck",
-  //   truck.truck,
-  //   "engine"
-  // );
-
-  const dstEnginesDirectory = path.join(dst);
   if (!fs.existsSync(dst)) {
     fs.mkdirSync(dst, { recursive: true });
   }

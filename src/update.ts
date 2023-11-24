@@ -3,7 +3,6 @@ import {
   globalConfig,
   trucksPath,
   scanHorsePower,
-  replaceUnlockLevel,
   outputPath,
   copyEngine,
 } from "./tools.js";
@@ -125,7 +124,15 @@ modes.map((mode: string) => {
 
       copyEngine(
         srcEnginePath,
-        path.join(modePath, "default/def/vehicle/truck", truck.truck, "engine"),
+        path.join(
+          modePath,
+          "default",
+          "def",
+          "vehicle",
+          "truck",
+          truck.truck,
+          "engine"
+        ),
         engine.engine,
         engine.unlock
       );
@@ -135,7 +142,9 @@ modes.map((mode: string) => {
         path.join(
           outputPath(),
           mode,
-          "/def/vehicle/truck",
+          "def",
+          "vehicle",
+          "truck",
           truck.truck,
           "engine"
         ),

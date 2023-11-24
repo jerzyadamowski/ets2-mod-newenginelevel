@@ -1,0 +1,105 @@
+SiiNunit
+{
+
+economy: .economy
+{
+	new_game: true
+	player: .player
+	bank: .bank
+	game_progress: .progress
+	event_queue: .events
+	police_ctrl: .police
+	mail_ctrl: .mailbox
+	delivery_log: .delivery_log
+	experience_points: 0
+
+# Starting time in minutes.
+
+	game_time: 600
+
+	screen_access_list[]: 	"screen.bank"
+	screen_access_list[]: 	"screen.mail"
+	screen_access_list[]: 	"jobs.company"
+	screen_access_list[]: 	"jobs.quick"
+	screen_access_list[]: 	"jobs.online"
+	screen_access_list[]: 	"job.log"
+	screen_access_list[]: 	"screen.skills"
+	screen_access_list[]: 	"overview.compman_w"
+	screen_access_list[]:		"screen.garageman"
+	screen_access_list[]: 	"screen.truckman"
+	screen_access_list[]: 	"screen.trailerman"
+	screen_access_list[]: 	"screen.driverman"
+	screen_access_list[]: 	"screen.recruit"
+	screen_access_list[]: 	"screen.recruit_map"
+	screen_access_list[]: 	"screen.real_estate"
+	screen_access_list[]: 	"truck.dealer_map"
+	screen_access_list[]: 	"truck.dealeronline"
+	screen_access_list[]:		"trailer.dealer"
+	screen_access_list[]:		"trailer.dealer.online"
+}
+
+bank: .bank
+{
+	money_account: 10000
+	app_enabled: false
+	loans: 1
+	loans[0]: .loan
+}
+
+bank_loan : .loan {
+ amount: 1000000
+ original_amount: 1000000
+ time_stamp: 600
+ interest_rate: 1.00
+ duration: 10
+}
+
+
+game_progress: .progress
+{
+}
+
+
+economy_event_queue: .events
+{
+}
+
+police_ctrl: .police
+{
+ offence_timer: 6
+ offence_timer[0]: 0
+ offence_timer[1]: 0
+ offence_timer[2]: 0
+ offence_timer[3]: 0
+ offence_timer[4]: 0
+ offence_timer[5]: 0
+ offence_counter: 6
+ offence_counter[0]: 0
+ offence_counter[1]: 0
+ offence_counter[2]: 0
+ offence_counter[3]: 0
+ offence_counter[4]: 0
+ offence_counter[5]: 0
+ offence_valid: 6
+ offence_valid[0]: false
+ offence_valid[1]: false
+ offence_valid[2]: false
+ offence_valid[3]: false
+ offence_valid[4]: false
+ offence_valid[5]: false
+}
+
+
+mail_ctrl: .mailbox
+{
+}
+
+delivery_log: .delivery_log
+{
+}
+
+player: .player
+{
+}
+
+}

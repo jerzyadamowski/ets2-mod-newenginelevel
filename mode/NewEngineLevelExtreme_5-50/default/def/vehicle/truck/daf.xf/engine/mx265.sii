@@ -4,7 +4,7 @@ accessory_engine_data : mx265.daf.xf.engine
 {
 	name: "PACCAR MX265"
 	price: 8400
-	unlock: 7
+	unlock: 12
 
 	info[]: "360 @@hp@@ (265@@kw@@)"
 	info[]: "1@@dg@@775 @@nm@@"

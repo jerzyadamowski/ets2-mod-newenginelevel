@@ -4,7 +4,7 @@ accessory_engine_data : mx300.daf.xf.engine
 {
 	name: "PACCAR MX300"
 	price: 12600
-	unlock: 10
+	unlock: 15
 
 	info[]: "410 @@hp@@ (300@@kw@@)"
 	info[]: "2@@dg@@000 @@nm@@"

@@ -128,7 +128,14 @@ modes.map((mode: string) => {
         "engine",
         engine.engine
       );
+
+      const dstEnginesDirectory = path.join(truckDestPath, "engine");
+      if (!fs.existsSync(dstEnginesDirectory)) {
+        fs.mkdirSync(dstEnginesDirectory, { recursive: true });
+      }
+
       const dstEnginePath = path.join(truckDestPath, "engine", engine.engine);
+
       replaceUnlockLevel(srcEnginePath, engine.unlock, dstEnginePath);
     });
   });

@@ -4,7 +4,7 @@ accessory_engine_data : d3876_471.man.tgx_euro6.engine
 {
 	name: "D3876 LF03 471 Euro 6"
 	price: 21480
-	unlock: 43
+	unlock: 37
 	info[]: "640 @@hp@@ (471@@kw@@)"
 	info[]: "3@@dg@@000 @@nm@@"
 	info[]: "930-1@@dg@@400 @@rpm@@"

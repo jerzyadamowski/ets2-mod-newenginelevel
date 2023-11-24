@@ -7,7 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "update": "TS_NODE_TRANSPILE_ONLY=true npx ts-node-esm ./src/update.ts",
-    "package": "TS_NODE_TRANSPILE_ONLY=true npx ts-node-esm ./src/package.ts ./demo false"
+    "demo-package-no-zip": "TS_NODE_TRANSPILE_ONLY=true npx ts-node-esm ./src/package.ts ./demo false",
+    "demo-package-zip": "TS_NODE_TRANSPILE_ONLY=true npx ts-node-esm ./src/package.ts ./demo true",
+    "package": "TS_NODE_TRANSPILE_ONLY=true npx ts-node-esm ./src/package.ts"
   },
   "keywords": [],
   "author": "Jerzy Adamowski",

@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import archiver from "archiver";
 import process from "process";
-import { cleanOrCreateDirectory, copy, modes, outputPath } from "./tools";
+import { cleanOrCreateDirectory, copy, modes } from "./tools.js";
 
 const installPath = process.argv?.[2];
 const zipOrNot = process.argv?.[3] ?? true;

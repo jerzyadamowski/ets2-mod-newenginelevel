@@ -65,9 +65,22 @@ export const cleanOrCreateDirectory = (dirPath: string) => {
   }
 };
 
-export const copy = (srcPath: string, dstPath: string) => {
+export const copy = (
+  srcPath: string,
+  dstPath: string,
+  copyContentsOnly = false
+) => {
   if (fs.lstatSync(srcPath).isDirectory()) {
-    fse.copySync(srcPath, dstPath);
+    if (copyContentsOnly) {
+      const files = fs.readdirSync(srcPath);
+      files.forEach((file) => {
+        const srcFilePath = path.join(srcPath, file);
+        const dstFilePath = path.join(dstPath, file);
+        fse.copySync(srcFilePath, dstFilePath);
+      });
+    } else {
+      fse.copySync(srcPath, dstPath);
+    }
   } else {
     fs.copyFileSync(srcPath, dstPath);
   }

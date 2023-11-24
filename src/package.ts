@@ -56,5 +56,19 @@ modes.map((mode: string) => {
   }
   //create workshop item
   cleanOrCreateDirectory(workshopInstallDir);
-  copy(mode, path.join(workshopModeInstallDir));
+  copy(path.join(mode, "workshop"), path.join(workshopModeInstallDir), true);
+  copy(
+    path.join(modeInstallDir),
+    path.join(workshopModeInstallDir, "default"),
+    true
+  );
+  copy(
+    path.join(mode, "image_steam.jpg"),
+    path.join(workshopInstallDir, `{modeName}.jpg`)
+  );
+  copy(path.join(mode, "image_steam.jpg"), path.join(workshopModeInstallDir));
+
+  if (!zipOrNot) {
+    fs.rmSync(modeInstallDir, { recursive: true, force: true });
+  }
 });

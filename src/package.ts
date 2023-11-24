@@ -5,7 +5,13 @@ import process from "process";
 import { cleanOrCreateDirectory, copy, modes } from "./tools.js";
 
 const installPath = process.argv?.[2];
-const zipOrNot = process.argv?.[3] ? !!process.argv?.[3] : true;
+const zipOrNot = () => {
+  const value = process.argv?.[3];
+  if (value === "false") {
+    return false;
+  }
+  return true;
+};
 if (!installPath) {
   console.log("Please provide a path to the game's package file.");
   process.exit(1);
@@ -53,7 +59,7 @@ for (const mode of modes) {
   copy(path.join(mode, "mod_description.txt"), modeInstallDir);
   copy(path.join(mode, "image.jpg"), modeInstallDir);
 
-  if (zipOrNot) {
+  if (zipOrNot()) {
     await compressDirectory(modeInstallDir, modeInstallZip);
     fs.renameSync(modeInstallZip, modeInstallScs);
   }
@@ -71,7 +77,7 @@ for (const mode of modes) {
   );
   copy(path.join(mode, "image_steam.jpg"), path.join(workshopModeInstallDir));
 
-  if (zipOrNot) {
+  if (zipOrNot()) {
     fs.rmSync(modeInstallDir, { recursive: true, force: true });
   }
 }

@@ -1,15 +1,15 @@
 {
   "name": "ets2-mod-newenginelevel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tool to generate mod for ETS2 that changes engine level of all trucks appropriately to horse power",
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "update": "TS_NODE_TRANSPILE_ONLY=true npx ts-node-esm ./src/update.ts",
-    "demo-package-no-zip": "TS_NODE_TRANSPILE_ONLY=true npx ts-node-esm ./src/package.ts ./demo false",
-    "demo-package-zip": "TS_NODE_TRANSPILE_ONLY=true npx ts-node-esm ./src/package.ts ./demo true",
-    "package": "TS_NODE_TRANSPILE_ONLY=true npx ts-node-esm ./src/package.ts"
+    "update": "npx ts-node-esm ./src/update.ts",
+    "demo-package-no-zip": "npx ts-node-esm ./src/package.ts ./demo false",
+    "demo-package-zip": "npx ts-node-esm ./src/package.ts ./demo true",
+    "package": "ts-node-esm ./src/package.ts"
   },
   "keywords": [],
   "author": "Jerzy Adamowski",
@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@types/archiver": "^6.0.2",
+    "@types/fs-extra": "^11.0.4",
     "archiver": "^6.0.1",
     "fs-extra": "^11.1.1"
   }

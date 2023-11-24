@@ -108,7 +108,10 @@ modes.map((mode: string) => {
   }
 
   fs.rmSync(outputPath(), { recursive: true, force: true });
-  fs.rmSync(path.join(modePath, "default", "def", "vehicle", "truck"));
+  fs.rmSync(path.join(modePath, "default", "def", "vehicle", "truck"), {
+    recursive: true,
+    force: true,
+  });
 
   const trucks = calculateUnlock(trucksMap(), modeConfig);
   trucks.map((truck) => {

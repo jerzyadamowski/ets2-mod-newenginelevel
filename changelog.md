@@ -1,12 +1,15 @@
-----
-1.2 Changes:
-* Version supports new sounds
-* Supports balance to volvo trucks engines
-* Supports mercedes engine power peak
-* Supports Man interior updates
 
-Generally this patch is up to date with ETS2 1.40
 
-----
-1.1 Version for steam workshop
+# CHANGELOG
 
+The format is based on [Keep a Changelog](https://keepachangelog.com/), and this project adheres to [Semantic Versioning](https://semver.org/).
+
+## [1.0.0] - 2023-11-24
+
+### Added
+
+- Migrated from xlsx to in memory map
+- Migrated from ps1 scripts to node (typescript esm)
+- Inlucded missing trucks from DLC (they are in different dirs than def). There is potentiall problem on missing config becasue i dont have all DLC and i dont know which one have engine configuration. If you have any extra definition files let me know.
+- Removed duplicated files
+- Transformed files from CRLF to LF

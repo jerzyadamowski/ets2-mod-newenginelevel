@@ -1,6 +1,10 @@
 Name: [green]New Engine Level All Unlock[normal]
-Version: [green]1.3[normal] by [red]Zwaua[normal]
-Compatibility: [red]1.40+[normal]
+Version: [green]2.0[normal] by [red]Zwaua[normal]
+Compatibility: [red]1.48+[normal]
+
+[orange]2.0
+[normal]All trucks' engines should be available from 0 level as long as I have all DLCs.
+To the mod joined MAN and DAF trucks.
 
 [orange]1.3
 [normal]All engines are available from level 0

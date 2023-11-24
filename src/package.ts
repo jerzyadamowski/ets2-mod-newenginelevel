@@ -64,7 +64,7 @@ for (const mode of modes) {
     fs.renameSync(modeInstallZip, modeInstallScs);
   }
   //create workshop item
-  cleanOrCreateDirectory(workshopInstallDir);
+  cleanOrCreateDirectory(workshopModeInstallDir);
   copy(path.join(mode, "workshop"), path.join(workshopModeInstallDir), true);
   copy(
     path.join(modeInstallDir),

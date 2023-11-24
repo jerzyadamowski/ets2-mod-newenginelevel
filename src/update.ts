@@ -1,5 +1,5 @@
 import {
-  modesPath,
+  modes,
   globalConfig,
   trucksPath,
   scanHorsePower,
@@ -20,11 +20,6 @@ type TrucksMap = {
   truck: string;
   engines: Engine[];
 }[];
-
-const modes = fs
-  .readdirSync(modesPath(), { withFileTypes: true })
-  .filter((dirent: fs.Dirent) => dirent.isDirectory())
-  .map((dirent: fs.Dirent) => path.join(modesPath(), dirent.name));
 
 const trucksMap = (): TrucksMap => {
   const trucks = fs
@@ -103,7 +98,7 @@ const calculateUnlock = (
 modes.map((mode: string) => {
   const modeName = path.basename(mode);
   console.info(`Mode: ${modeName}`);
-  const modePath = path.join(modesPath(), modeName);
+  const modePath = mode;
   const modeConfigPath = path.join(modePath, "config.json");
   const modeConfig = JSON.parse(
     fs.readFileSync(modeConfigPath, "utf-8")
@@ -111,6 +106,9 @@ modes.map((mode: string) => {
   if (!fs.existsSync(modeConfigPath)) {
     return;
   }
+
+  fs.rmSync(outputPath(), { recursive: true, force: true });
+  fs.rmSync(path.join(modePath, "default", "def", "vehicle", "truck"));
 
   const trucks = calculateUnlock(trucksMap(), modeConfig);
   trucks.map((truck) => {
@@ -141,7 +139,7 @@ modes.map((mode: string) => {
         srcEnginePath,
         path.join(
           outputPath(),
-          mode,
+          modeName,
           "def",
           "vehicle",
           "truck",

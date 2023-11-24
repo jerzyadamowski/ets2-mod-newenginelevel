@@ -1,4 +1,5 @@
 import fs from "fs";
+import fse from "fs-extra";
 import path from "path";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
@@ -12,6 +13,11 @@ export const globalConfig = (): {} => {
 };
 
 export const modesPath = () => path.resolve(__dirname, "..", "mode");
+export const modes = fs
+  .readdirSync(modesPath(), { withFileTypes: true })
+  .filter((dirent: fs.Dirent) => dirent.isDirectory())
+  .map((dirent: fs.Dirent) => path.join(modesPath(), dirent.name));
+
 export const outputPath = () => path.resolve(__dirname, "..", "out");
 export const trucksPath = () =>
   path.resolve(__dirname, "def", "vehicle", "truck");
@@ -48,6 +54,23 @@ export const copyEngine = (
   const dstEnginePath = path.join(dst, engine);
 
   replaceUnlockLevel(src, level, dstEnginePath);
+};
+
+export const cleanOrCreateDirectory = (dirPath: string) => {
+  if (fs.existsSync(dirPath)) {
+    fs.rmSync(dirPath, { recursive: true, force: true });
+    fs.mkdirSync(dirPath, { recursive: true });
+  } else {
+    fs.mkdirSync(dirPath, { recursive: true });
+  }
+};
+
+export const copy = (srcPath: string, dstPath: string) => {
+  if (fs.lstatSync(srcPath).isDirectory()) {
+    fse.copySync(srcPath, dstPath);
+  } else {
+    fs.copyFileSync(srcPath, dstPath);
+  }
 };
 
 export interface ConfigGlobal {}

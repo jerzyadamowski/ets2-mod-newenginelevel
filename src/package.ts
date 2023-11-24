@@ -1,8 +1,11 @@
 import fs from "fs";
+import path from "path";
 import archiver from "archiver";
 import process from "process";
+import { cleanOrCreateDirectory, copy, modes, outputPath } from "./tools";
 
 const installPath = process.argv?.[2];
+const zipOrNot = process.argv?.[3] ?? true;
 if (!installPath) {
   console.log("Please provide a path to the game's package file.");
   process.exit(1);
@@ -29,3 +32,29 @@ export const compressDirectory = (srcDirectory: string, dstZipFile: string) => {
   archive.directory(srcDirectory, false);
   archive.finalize();
 };
+
+modes.map((mode: string) => {
+  const modeName = path.basename(mode);
+  const modeInstallDir = path.join(installPath, modeName);
+  const workshopInstallDir = path.join(installPath, "workshop");
+  const workshopModeInstallDir = path.join(workshopInstallDir, modeName);
+  const modeInstallZip = path.join(installPath, `${modeName}.zip`);
+  const modeInstallScs = path.join(installPath, `${modeName}.scs`);
+  cleanOrCreateDirectory(modeInstallDir);
+  fs.rmSync(modeInstallZip, { recursive: true, force: true });
+  fs.rmSync(modeInstallScs, { recursive: true, force: true });
+
+  //create scs
+  copy(path.join(mode, "default", "def"), modeInstallDir);
+  copy(path.join(mode, "manifest.sii"), modeInstallDir);
+  copy(path.join(mode, "mod_description.txt"), modeInstallDir);
+  copy(path.join(mode, "image.jpg"), modeInstallDir);
+
+  if (zipOrNot) {
+    compressDirectory(modeInstallDir, modeInstallZip);
+    fs.renameSync(modeInstallZip, modeInstallScs);
+  }
+  //create workshop item
+  cleanOrCreateDirectory(workshopInstallDir);
+  copy(mode, path.join(workshopModeInstallDir));
+});

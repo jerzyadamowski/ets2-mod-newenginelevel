@@ -12,28 +12,31 @@ if (!installPath) {
 }
 
 export const compressDirectory = (srcDirectory: string, dstZipFile: string) => {
-  const output = fs.createWriteStream(dstZipFile);
-  const archive = archiver("zip", {
-    zlib: { level: 0 }, // Level 0 means no compression
-  });
+  return new Promise((resolve, reject) => {
+    const output = fs.createWriteStream(dstZipFile);
+    const archive = archiver("zip", {
+      zlib: { level: 0 }, // Level 0 means no compression
+    });
 
-  output.on("close", function () {
-    console.log(archive.pointer() + " total bytes");
-    console.log(
-      "Archiver has been finalized and the output file descriptor has closed."
-    );
-  });
+    output.on("close", function () {
+      console.log(archive.pointer() + " total bytes");
+      console.log(
+        "Archiver has been finalized and the output file descriptor has closed."
+      );
+      resolve(true);
+    });
 
-  archive.on("error", function (err) {
-    throw err;
-  });
+    archive.on("error", function (err) {
+      reject(err);
+    });
 
-  archive.pipe(output);
-  archive.directory(srcDirectory, false);
-  archive.finalize();
+    archive.pipe(output);
+    archive.directory(srcDirectory, false);
+    archive.finalize();
+  });
 };
 
-modes.map((mode: string) => {
+for (const mode of modes) {
   const modeName = path.basename(mode);
   const modeInstallDir = path.join(installPath, modeName);
   const workshopInstallDir = path.join(installPath, "workshop");
@@ -51,7 +54,7 @@ modes.map((mode: string) => {
   copy(path.join(mode, "image.jpg"), modeInstallDir);
 
   if (zipOrNot) {
-    compressDirectory(modeInstallDir, modeInstallZip);
+    await compressDirectory(modeInstallDir, modeInstallZip);
     fs.renameSync(modeInstallZip, modeInstallScs);
   }
   //create workshop item
@@ -71,4 +74,4 @@ modes.map((mode: string) => {
   if (!zipOrNot) {
     fs.rmSync(modeInstallDir, { recursive: true, force: true });
   }
-});
+}

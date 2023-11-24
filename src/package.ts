@@ -75,7 +75,6 @@ for (const mode of modes) {
     path.join(mode, "image_steam.jpg"),
     path.join(workshopInstallDir, `${modeName}.jpg`)
   );
-  copy(path.join(mode, "image_steam.jpg"), path.join(workshopModeInstallDir));
 
   if (zipOrNot()) {
     fs.rmSync(modeInstallDir, { recursive: true, force: true });

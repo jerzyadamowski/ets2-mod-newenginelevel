@@ -4,7 +4,7 @@ accessory_engine_data : cur8_310.iveco.stralis.engine
 {
 	name: "Cursor 8 310"
 	price: 6480
-	unlock: 25
+	unlock: 31
 	info[]: "310 @@hp@@ (228@@kw@@)"
 	info[]: "1@@dg@@300 @@nm@@"
 	info[]: "1@@dg@@200-1@@dg@@675 @@rpm@@"

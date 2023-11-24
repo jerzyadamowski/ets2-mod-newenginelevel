@@ -4,7 +4,7 @@ accessory_engine_data : dti11_380.renault.t.engine
 {
 	name: "DTI 11 380 Euro 6"
 	price: 10200
-	unlock: 24
+	unlock: 31
 	info[]: "380 @@hp@@ (279@@kw@@)"
 	info[]: "1@@dg@@800 @@nm@@"
 	info[]: "950-1@@dg@@450 @@rpm@@"

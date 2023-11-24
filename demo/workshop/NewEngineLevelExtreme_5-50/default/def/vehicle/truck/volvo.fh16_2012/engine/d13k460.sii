@@ -4,7 +4,7 @@ accessory_engine_data : d13k460.volvo.fh16_2012.engine
 {
 	name: "D13K460 Euro 6"
 	price: 13740
-	unlock: 19
+	unlock: 34
 	info[]: "460 @@hp@@ (338@@kw@@)"
 	info[]: "2@@dg@@300 @@nm@@"
 	info[]: "900-1@@dg@@400 @@rpm@@"

@@ -85,7 +85,7 @@ export const copy = (
       fse.copySync(srcPath, dstPath);
     }
   } else {
-    if (!fs.existsSync(dstPath) || fs.lstatSync(dstPath).isDirectory()) {
+    if (fs.existsSync(dstPath) || fs.lstatSync(dstPath).isDirectory()) {
       dstPath = path.join(dstPath, path.basename(srcPath));
     }
     fs.copyFileSync(srcPath, dstPath);

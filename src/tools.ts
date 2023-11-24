@@ -12,6 +12,7 @@ export const globalConfig = (): {} => {
 };
 
 export const modesPath = () => path.resolve(__dirname, "../mode");
+export const outputPath = () => path.resolve(__dirname, "../out");
 export const trucksPath = () => path.resolve(__dirname, "./def/vehicle/truck");
 export const scanHorsePower = (text: string) => {
   const regex = /info\[\]:\s*"(\d+)\s*@@hp@@/;
@@ -32,6 +33,28 @@ export const replaceUnlockLevel = (
   const regex = /(unlock:\s*)\d+/;
   const newText = text.replace(regex, `$1${level}`);
   fs.writeFileSync(dstPath, newText);
+};
+export const copyEngine = (
+  src: string,
+  dst: string,
+  engine: string,
+  level: number
+) => {
+  // const truckDestPath = path.join(
+  //   modePath,
+  //   "default/def/vehicle/truck",
+  //   truck.truck,
+  //   "engine"
+  // );
+
+  const dstEnginesDirectory = path.join(dst);
+  if (!fs.existsSync(dst)) {
+    fs.mkdirSync(dst, { recursive: true });
+  }
+
+  const dstEnginePath = path.join(dst, engine);
+
+  replaceUnlockLevel(src, level, dstEnginePath);
 };
 
 export interface ConfigGlobal {}

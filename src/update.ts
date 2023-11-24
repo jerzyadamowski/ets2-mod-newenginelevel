@@ -4,6 +4,8 @@ import {
   trucksPath,
   scanHorsePower,
   replaceUnlockLevel,
+  outputPath,
+  copyEngine,
 } from "./tools.js";
 import type { ConfigGlobal, ConfigMode } from "./tools.js";
 import fs from "fs";
@@ -113,14 +115,6 @@ modes.map((mode: string) => {
 
   const trucks = calculateUnlock(trucksMap(), modeConfig);
   trucks.map((truck) => {
-    const truckDestPath = path.join(
-      modePath,
-      "default/def/vehicle/truck",
-      truck.truck
-    );
-    if (!fs.existsSync(truckDestPath)) {
-      fs.mkdirSync(truckDestPath, { recursive: true });
-    }
     truck.engines.map((engine) => {
       const srcEnginePath = path.join(
         trucksPath(),
@@ -129,14 +123,25 @@ modes.map((mode: string) => {
         engine.engine
       );
 
-      const dstEnginesDirectory = path.join(truckDestPath, "engine");
-      if (!fs.existsSync(dstEnginesDirectory)) {
-        fs.mkdirSync(dstEnginesDirectory, { recursive: true });
-      }
+      copyEngine(
+        srcEnginePath,
+        path.join(modePath, "default/def/vehicle/truck", truck.truck, "engine"),
+        engine.engine,
+        engine.unlock
+      );
 
-      const dstEnginePath = path.join(truckDestPath, "engine", engine.engine);
-
-      replaceUnlockLevel(srcEnginePath, engine.unlock, dstEnginePath);
+      copyEngine(
+        srcEnginePath,
+        path.join(
+          outputPath(),
+          mode,
+          "/def/vehicle/truck",
+          truck.truck,
+          "engine"
+        ),
+        engine.engine,
+        engine.unlock
+      );
     });
   });
 });

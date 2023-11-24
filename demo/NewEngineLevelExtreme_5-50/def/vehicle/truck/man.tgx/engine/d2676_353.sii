@@ -4,7 +4,7 @@ accessory_engine_data : d2676_353.man.tgx.engine
 {
 	name: "D2676 353"
 	price: 15960
-	unlock: 26
+	unlock: 32
 	info[]: "480 @@hp@@ (353@@kw@@)"
 	info[]: "2@@dg@@300 @@nm@@"
 	info[]: "1@@dg@@000-1@@dg@@400 @@rpm@@"

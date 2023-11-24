@@ -4,7 +4,7 @@ accessory_engine_data : engine63.mercedes.actros2014.engine
 {
 	name: "OM 473 Euro VI 460"
 	price: 23160
-	unlock: 67
+	unlock: 69
 	info[]: "625 @@hp@@ (460@@kw@@)"
 	info[]: "3@@dg@@000 @@nm@@"
 	info[]: "1@@dg@@100 @@rpm@@"

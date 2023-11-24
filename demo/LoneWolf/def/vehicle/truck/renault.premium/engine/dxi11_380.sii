@@ -4,7 +4,7 @@ accessory_engine_data : dxi11_380.renault.premium.engine
 {
 	name: "380DXi Euro5"
 	price: 9000
-	unlock: 15
+	unlock: 22
 	info[]: "380 @@hp@@ (280@@kw@@)"
 	info[]: "1@@dg@@800 @@nm@@"
 	info[]: "950-1@@dg@@400@@rpm@@"

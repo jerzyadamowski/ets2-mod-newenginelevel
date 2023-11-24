@@ -67,7 +67,7 @@ for (const mode of modes) {
   );
   copy(
     path.join(mode, "image_steam.jpg"),
-    path.join(workshopInstallDir, `{modeName}.jpg`)
+    path.join(workshopInstallDir, `${modeName}.jpg`)
   );
   copy(path.join(mode, "image_steam.jpg"), path.join(workshopModeInstallDir));
 

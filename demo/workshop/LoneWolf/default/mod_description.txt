@@ -1,0 +1,42 @@
+Name: Lone Wolf (Survival Economy Mod)
+Version: 4.0 by Zwaua ([green]BETA[normal])
+Compatibility: 1.47+
+
+[green] Survival Economy Mod for solo play.
+
+[red]REWORKED! 
+[red]Its harder to use best trucks, they are now accesible from 15 to 100 (prev 15 to 50)
+[red]Easy to change trucks (you loose only 25%)
+[red]Easy to hire and expand garage(Hire: 2.4M to 188K, Buy: 640K to 400K Uprade: 480K to 150K)
+[red]Cost of fullfil garage with drivers and trucks was lowered to (13120K to 1490K)
+
+[normal]
+
+----
+Here is summary how this mod works: Most mechanics in game is OP like loans or AI drivers or best trucks. That why i change it little bit with these areas to make this game challenging.
+I want you to have a lot of objectives without attending a second job. Thats why this isnt REALISTIC ECONOMY MOD.
+
+----
+First, you have a huge debt in the bank at the start. 1 000 000 Euro (Approx. 15841Euro over 70 days).
+Second, Hiring is OP in this game so here is there is hard to hire someone (188K Euro). Tip: Dont hire without truck.
+Third, garage will cost you: small: 400K, upgrade: 150K
+Fourth, i replaced levels for every engine to balance all trucks. In human it means i prepare formulas that you will use trucks from worst to best. And not because you wanted, but becasue you have to.
+Now you can get your first truck from 15 level and more powerful configuration you can get at 100. Details you can get below.
+Fifth, offences and police are tweak to more realistic. You dont have to play reckless simulation delivery is lowered from 62km/h to 45km/h.
+Sixth, Income is one-third orginal income.
+Seventh, A lot of XP for types of cargo, travelled distance, parking ability.
+Eighth, cargo is fragile, when you scratch it probably it will cost you all XP and income.
+Nineth, loans have huge interest rate.
+Tenth, works well only with highest priority around other economy mods and as a new game.
+
+THIS IS WHEN TRUCKS ARE OPEN FOR YOU:
+DAF from 21 level.
+IVECO from 25 level.
+MANs from 41 level.
+MERCEDES from 31 level.
+RENAULTs from 15 level.
+SCANIAs from 55 level.
+VOLVOs from 62 level.
+
+I use math to set them quite fair evenly.
+HAPPY EXPLORING.

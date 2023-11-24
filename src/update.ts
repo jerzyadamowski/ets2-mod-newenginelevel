@@ -3,6 +3,7 @@ import {
   globalConfig,
   trucksPath,
   scanHorsePower,
+  replaceUnlockLevel,
 } from "./tools.js";
 import type { ConfigGlobal, ConfigMode } from "./tools.js";
 import fs from "fs";
@@ -111,5 +112,24 @@ modes.map((mode: string) => {
   }
 
   const trucks = calculateUnlock(trucksMap(), modeConfig);
-  trucks.map((truck) => {});
+  trucks.map((truck) => {
+    const truckDestPath = path.join(
+      modePath,
+      "default/def/vehicle/truck",
+      truck.truck
+    );
+    if (!fs.existsSync(truckDestPath)) {
+      fs.mkdirSync(truckDestPath, { recursive: true });
+    }
+    truck.engines.map((engine) => {
+      const srcEnginePath = path.join(
+        trucksPath(),
+        truck.truck,
+        "engine",
+        engine.engine
+      );
+      const dstEnginePath = path.join(truckDestPath, "engine", engine.engine);
+      replaceUnlockLevel(srcEnginePath, engine.unlock, dstEnginePath);
+    });
+  });
 });

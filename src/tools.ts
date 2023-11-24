@@ -71,6 +71,9 @@ export const copy = (
   copyContentsOnly = false
 ) => {
   if (fs.lstatSync(srcPath).isDirectory()) {
+    // if (fs.existsSync(dstPath)) {
+    //   fs.mkdirSync(dstPath, { recursive: true });
+    // }
     if (copyContentsOnly) {
       const files = fs.readdirSync(srcPath);
       files.forEach((file) => {

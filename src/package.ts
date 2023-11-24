@@ -45,7 +45,7 @@ modes.map((mode: string) => {
   fs.rmSync(modeInstallScs, { recursive: true, force: true });
 
   //create scs
-  copy(path.join(mode, "default", "def"), modeInstallDir);
+  copy(path.join(mode, "default", "def"), path.join(modeInstallDir, "def"));
   copy(path.join(mode, "manifest.sii"), modeInstallDir);
   copy(path.join(mode, "mod_description.txt"), modeInstallDir);
   copy(path.join(mode, "image.jpg"), modeInstallDir);

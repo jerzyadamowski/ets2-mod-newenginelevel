@@ -1,0 +1,19 @@
+{
+  "name": "ets2-mod-newenginelevel",
+  "version": "1.0.0",
+  "description": "Tool to generate mod for ETS2 that changes engine level of all trucks appropriately to horse power",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "TS_NODE_TRANSPILE_ONLY=true npx ts-node-esm ./src/update.ts",
+    "package": "TS_NODE_TRANSPILE_ONLY=true npx ts-node-esm ./src/package.ts"
+  },
+  "keywords": [],
+  "author": "Jerzy Adamowski",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}

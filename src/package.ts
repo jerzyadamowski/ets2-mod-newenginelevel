@@ -55,9 +55,12 @@ for (const mode of modes) {
 
   //create scs
   copy(path.join(mode, "default", "def"), path.join(modeInstallDir, "def"));
-  copy(path.join(mode, "manifest.sii"), modeInstallDir);
-  copy(path.join(mode, "mod_description.txt"), modeInstallDir);
-  copy(path.join(mode, "image.jpg"), modeInstallDir);
+  copy(path.join(mode, "default", "def", "manifest.sii"), modeInstallDir);
+  copy(
+    path.join(mode, "default", "def", "mod_description.txt"),
+    modeInstallDir
+  );
+  copy(path.join(mode, "default", "def", "image.jpg"), modeInstallDir);
 
   if (zipOrNot()) {
     await compressDirectory(modeInstallDir, modeInstallZip);

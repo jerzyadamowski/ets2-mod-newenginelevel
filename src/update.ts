@@ -6,7 +6,7 @@ import {
   outputPath,
   copyEngine,
 } from "./tools.js";
-import type { ConfigGlobal, ConfigMode } from "./tools.js";
+import type { ConfigGlobal, ConfigMode } from "./tools";
 import fs from "fs";
 import path from "path";
 

@@ -1,0 +1,16 @@
+Name: Lone Wolf (Survival Economy Mod) Version: 5.0 by Zwaua Compatibility: 1.48+
+
+[green] Survival Economy Mod for solo play.
+
+[red]Works better with a new game.
+[red]It's harder to use the best trucks; they are now accessible from level 15 to 100.
+[red]Easy to change trucks (you only lose 25%).
+[red]Easy to hire and expand the garage (Hire: 188K, Buy: 400K, Upgrade: 150K).
+
+
+[normal]
+Here is a summary of how this mod works: Most mechanics in the game are overpowered, such as loans, AI drivers, and the best trucks. That's why I made a few changes in these areas to make the game more challenging. If you want to have a lot of objectives without feeling like you have a second job, this mod is for you.
+
+First, you start with a huge debt in the bank: 1,000,000 Euro (Approx. 15,841 Euro over 70 days). Second, hiring is overpowered in this game, so it's harder to hire someone (188K Euro). Tip: Don't hire without a truck. Third, the garage will cost you: small: 400K, upgrade: 150K. Fourth, I replaced the levels for every engine to balance all trucks. In other words, I prepared formulas that force you to use trucks from worst to best, not because you want to, but because you have to. Now you can get your first truck at level 15, and the most powerful configuration at level 100. Fifth, offenses and police have been tweaked to be more realistic. You don't have to drive recklessly; the speed limit for delivery is lowered from 62km/h to 45km/h. Sixth, income is closer to the original income. Seventh, you earn a lot of XP for different types of cargo, traveled distance, and parking ability. Eighth, cargo is fragile; if you scratch it, it will likely cost you all your XP and income. Ninth, loans have a high interest rate. Tenth, this mod works best when it has the highest priority among other economy mods and when starting a new game.
+
+HAPPY EXPLORING.

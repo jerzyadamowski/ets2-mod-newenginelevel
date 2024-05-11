@@ -2,10 +2,11 @@ Name: Lone Wolf (Survival Economy Mod) Version: 5.0 by Zwaua Compatibility: 1.48
 
 [green] Survival Economy Mod for solo play.
 
+[red]We pay 12 - 50 Euro / km
 [red]Works better with a new game.
 [red]It's harder to use the best trucks; they are now accessible from level 15 to 100.
 [red]Easy to change trucks (you only lose 25%).
-[red]Easy to hire and expand the garage (Hire: 188K, Buy: 400K, Upgrade: 150K).
+[red]Hard to hire and expand the garage (Hire: 188K, Buy: 400K, Upgrade: 150K).
 
 
 [normal]

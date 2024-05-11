@@ -1,4 +1,4 @@
-Name: Lone Wolf (Survival Economy Mod) Version: 5.0 by Zwaua Compatibility: 1.48+
+Name: Lone Wolf (Survival Economy Mod) Version: 5.0 by Zwaua Compatibility: 1.49+
 
 [green] Survival Economy Mod for solo play.
 

@@ -2,11 +2,9 @@ Name: Lone Wolf Extreme (Hard Economy Mod) Version: 1.2 by Zwaua Compatibility: 
 
 [green] Hard Economy Mod for solo play.
 
-[red]Initial load to be repaid: 1 000 000 Euro. NEED NEW GAME.
+[red]Initial load to be repaid: 1 000 000 Euro. NEED START NEW GAME.
 [red]From every job you can get 0,3 - 3 Euro/km.
-[red]Works better with a new game.
 [red]It's harder to use the best trucks; they are now accessible from level 15 to 100.
-[red]Hard to change trucks (you only lose 25%).
 [red]Hard to hire and expand the garage (Hire: 50K, Buy: 400K, Upgrade: 150K).
 
 HAPPY EXPLORING.

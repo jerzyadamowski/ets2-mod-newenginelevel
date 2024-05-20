@@ -5,7 +5,7 @@ economy_data : economy.data.storage
 	truck_refund: 		0.75	# 75% of original price
 
 	# Base revenue per km in game native currency.
-	revenue_per_km_base: 12
+	revenue_per_km_base: 15
 
 	price_small_garage: 400000
 	price_garage_upgrade: 150000
@@ -71,8 +71,8 @@ economy_data : economy.data.storage
 	driver_max_cargo_damage: 6.0		# in %, decrease with skill
 	driver_maintenance_cost: (0.1, 1.0) 	# maintenance + insurance, base range in E/km
 	minimal_driver_salary:	50		# fixed part of driver's pay
-	driver_revenue_coef_per_km: 0.02 #last: 0.15		# Revenue coefficient used during quick job and drivers jobs.
-    driver_cargo_market_revenue_coef_per_km: 0.02 #last: 0.18 # Revenue coefficient used during cargo market jobs for drivers.
+	driver_revenue_coef_per_km: 0.01 #last: 0.15		# Revenue coefficient used during quick job and drivers jobs.
+    driver_cargo_market_revenue_coef_per_km: 0.01 #last: 0.18 # Revenue coefficient used during cargo market jobs for drivers.
 
 	driver_hire_cost: 50000 # Euro
 
@@ -97,8 +97,8 @@ economy_data : economy.data.storage
 	skill_distance[5]:	1500
 
 	fixed_revenue: 200
-	revenue_coef_per_km: 0.07 #prev: 0.45# Revenue coefficient per km used during freight market jobs.
-	cargo_market_revenue_coef_per_km: 0.08 #prev: 0.5 # Revenue coefficient per km used during cargo market jobs.
+	revenue_coef_per_km: 0.05 #prev: 0.45# Revenue coefficient per km used during freight market jobs.
+	cargo_market_revenue_coef_per_km: 0.06 #prev: 0.5 # Revenue coefficient per km used during cargo market jobs.
 
 	max_eco_consumption_drop[0]: (0.2, 0.2)	# consumption decreased by 40% (or 60% if driving with trailer)
 							#  for ecodriving skill maximum

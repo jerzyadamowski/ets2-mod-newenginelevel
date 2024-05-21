@@ -14,7 +14,7 @@ economy_data : economy.data.storage
 	garage_prod_plan_small: 12000
 	garage_prod_plan_large: 20000
 
-	fuel_discount_in_garage: 0.15	# 15%
+	fuel_discount_in_garage: 0.5	# 15%
 
 	truck_count_for_online:	1	# number of owned trucks to unlock buying online feature
 
@@ -136,10 +136,10 @@ economy_data : economy.data.storage
 	reward_bonus_urgent[4]: 0.05
 	reward_bonus_urgent[5]: 0.06
 
-	reward_bonus_level: 0.06
+	reward_bonus_level: 0.04
 
 #  Experience points
-	free_roam_report_limit: 100000
+	free_roam_report_limit: 20000
 
 	exp_cargo_delivery: 	1.0		# per km of real world
 	exp_free_roam: 		1.0		# per km of real world

@@ -136,7 +136,7 @@ economy_data : economy.data.storage
 	reward_bonus_urgent[4]: 0.05
 	reward_bonus_urgent[5]: 0.06
 
-	reward_bonus_level: 0.04
+	reward_bonus_level: 0.05
 
 #  Experience points
 	free_roam_report_limit: 20000

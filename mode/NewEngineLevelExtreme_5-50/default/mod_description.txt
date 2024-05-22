@@ -1,4 +1,4 @@
-Name: [green]New Engine Level Extreme 5 - 50[normal]
+[h3]Name: [green]New Engine Level Extreme 5 - 50[normal][/h3]
 Version: [green]2.0[normal] by [red]Zwaua[normal]
 Compatibility: [red]1.48+[normal]
 
@@ -13,6 +13,18 @@ I promise to keep the configuration updated as long as I have all missing DLCs.
 Powerful trucks its harder to get stronger engine, and its opposite of underpowered trucks.
 First trucks with around 310-320Hp you can get around 5 level and last engines 730-750 are avaiable at 48-50 level.
 
+Others mods:
+[b]Lone Wolf Extreme[/b]
+https://steamcommunity.com/sharedfiles/filedetails/?id=3244664492
+
+[b]Lone Wolf[/b]
+https://steamcommunity.com/sharedfiles/filedetails/?id=2496630696
+
+[b]New Engine Level Extreme 5 - 50[/b]
+https://steamcommunity.com/sharedfiles/filedetails/?id=2027258360
+
+[b]New Engine Level All Unlock[/b]
+https://steamcommunity.com/sharedfiles/filedetails/?id=2027232163
 
 
 

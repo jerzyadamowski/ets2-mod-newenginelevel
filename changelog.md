@@ -2,6 +2,12 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/), and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.1.3] - 2024-05-22
+
+### Changed
+
+- Updated description with links to other mods.
+
 ## [1.1.2] - 2024-05-21
 
 ### Added

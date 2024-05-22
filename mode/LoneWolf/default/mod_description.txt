@@ -1,4 +1,4 @@
-Name: Lone Wolf (Survival Economy Mod) Version: 5.0 by Zwaua Compatibility: 1.49+
+[h3]Name: Lone Wolf (Survival Economy Mod) Version: 5.0 by Zwaua Compatibility: 1.49+[/h3]
 
 [green] Survival Economy Mod for solo play.
 
@@ -15,3 +15,17 @@ Here is a summary of how this mod works: Most mechanics in the game are overpowe
 First, you start with a huge debt in the bank: 1,000,000 Euro (Approx. 15,841 Euro over 70 days). Second, hiring is overpowered in this game, so it's harder to hire someone (188K Euro). Tip: Don't hire without a truck. Third, the garage will cost you: small: 400K, upgrade: 150K. Fourth, I replaced the levels for every engine to balance all trucks. In other words, I prepared formulas that force you to use trucks from worst to best, not because you want to, but because you have to. Now you can get your first truck at level 15, and the most powerful configuration at level 100. Fifth, offenses and police have been tweaked to be more realistic. You don't have to drive recklessly; the speed limit for delivery is lowered from 62km/h to 45km/h. Sixth, income is closer to the original income. Seventh, you earn a lot of XP for different types of cargo, traveled distance, and parking ability. Eighth, cargo is fragile; if you scratch it, it will likely cost you all your XP and income. Ninth, loans have a high interest rate. Tenth, this mod works best when it has the highest priority among other economy mods and when starting a new game.
 
 HAPPY EXPLORING.
+
+Others mods:
+[b]Lone Wolf Extreme[/b]
+https://steamcommunity.com/sharedfiles/filedetails/?id=3244664492
+
+[b]Lone Wolf[/b]
+https://steamcommunity.com/sharedfiles/filedetails/?id=2496630696
+
+[b]New Engine Level Extreme 5 - 50[/b]
+https://steamcommunity.com/sharedfiles/filedetails/?id=2027258360
+
+[b]New Engine Level All Unlock[/b]
+https://steamcommunity.com/sharedfiles/filedetails/?id=2027232163
+

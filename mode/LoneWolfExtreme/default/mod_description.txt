@@ -1,4 +1,4 @@
-[h3]Name: Lone Wolf Extreme (Hard Economy Mod) Version: 1.3.2 by Zwaua Compatibility: 1.50+[/h3]
+[h3]Name: Lone Wolf Extreme (Hard Economy Mod) Version: 1.4 by Zwaua Compatibility: 1.50+[/h3]
 
 [green] Hard Economy Mod for solo play.
 
@@ -6,6 +6,7 @@
 [red]From every job you can get 0,3 - 6 Euro/km.
 [red]It's harder to use the best trucks; they are now accessible from level 15 to 100.
 [red]Hard to hire and expand the garage (Hire: 50K, Buy: 400K, Upgrade: 150K).
+[green]Xp for parking: 500pts/250pts/100pts.
 
 HAPPY EXPLORING.
 

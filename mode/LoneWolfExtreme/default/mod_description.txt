@@ -1,4 +1,4 @@
-[h3]Name: Lone Wolf Extreme (Hard Economy Mod) Version: 1.4 by Zwaua Compatibility: 1.50+[/h3]
+[h3]Name: Lone Wolf Extreme (Hard Economy Mod) Version: 1.4.1 by Zwaua Compatibility: 1.50+[/h3]
 
 [green] Hard Economy Mod for solo play.
 

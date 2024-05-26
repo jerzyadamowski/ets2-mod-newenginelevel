@@ -2,6 +2,12 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/), and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.2.0] - 2024-05-26
+
+### Changed
+
+- Fines are more immervise. Inspired by 'More realistic fines'. You will pay a fine primarily when you are caught by someone.
+
 ## [1.1.5] - 2024-05-25
 
 ### Changed

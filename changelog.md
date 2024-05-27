@@ -2,6 +2,13 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/), and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.2.1] - 2024-05-27
+
+### Changed
+
+- There only two fines that for sure: illegal trailer, illegal border crossing. Othere fines have are probability less than 100%.
+- Lone Wolf Extreme - more income from quick jobs 0.015 => 0.02
+
 ## [1.2.0] - 2024-05-26
 
 ### Changed

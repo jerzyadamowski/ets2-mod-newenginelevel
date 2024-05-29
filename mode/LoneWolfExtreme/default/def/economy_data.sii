@@ -7,8 +7,8 @@ economy_data : economy.data.storage
 	# Base revenue per km in game native currency.
 	revenue_per_km_base: 15
 
-	price_small_garage: 400000
-	price_garage_upgrade: 150000
+	price_small_garage: 200000
+	price_garage_upgrade: 75000
 
 	garage_prod_plan_tiny: 4000
 	garage_prod_plan_small: 12000
@@ -74,7 +74,7 @@ economy_data : economy.data.storage
 	driver_revenue_coef_per_km: 0.02 # Revenue coefficient used during quick job and drivers jobs.
     driver_cargo_market_revenue_coef_per_km: 0.025 # Revenue coefficient used during cargo market jobs for drivers.
 
-	driver_hire_cost: 50000 # Euro
+	driver_hire_cost: 5000 # Euro
 
 	free_driver_level_cap: 50	# don't grow offered drivers higher than this level
 	driver_offer_scrap_prob: 0.5

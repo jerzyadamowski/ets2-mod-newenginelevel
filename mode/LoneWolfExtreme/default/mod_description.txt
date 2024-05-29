@@ -1,4 +1,4 @@
-[h3]Name: Lone Wolf Extreme (Hard Economy Mod) Version: 2.1 by Zwaua Compatibility: 1.50+[/h3]
+[h3]Name: Lone Wolf Extreme (Hard Economy Mod) Version: 2.2 by Zwaua Compatibility: 1.50+[/h3]
 
 [i]Disclaimer: This mod increases the time it takes to complete individual objectives in the game, and in reality it is not as long as you might think. We have to count more, and on the other hand, the existence of used trucks makes the game easier for us.
 For those who like to have something to do because they love the game and would like to enjoy new challenges longer.[/i]
@@ -11,7 +11,7 @@ Hard: Extreme
 [red]Initial debt: 1 000 000 Euro. NEED START NEW GAME.
 [red]From every job you can get 0,3 - 6 Euro/km.
 [red]It's harder to use the best trucks; they are now accessible gradually from level 15 to 100.
-[red]Hard to hire and expand the garage (Hire: 50K, Buy: 400K, Upgrade: 150K).
+[red]Hard to hire and expand the garage (Hire: 5K, Buy: 200K, Upgrade: 75K).
 [green]XP for parking: 500pts/250pts/100pts.
 [green]Fines inspired by 'More Realistic Fines' for more immersive gameplay. Basically, you won't get fined out of nowhere as if somebody is watching you all the time.
 

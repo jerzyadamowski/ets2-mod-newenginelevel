@@ -2,6 +2,13 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/), and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.2.2] - 2024-05-29
+
+### Changed
+
+- Price_small_garage: 400K => 200K, Price_garage_upgrade: 150K => 75K, Driver_hire_cost: 50K => 5K.
+- Totally money to fill garage: 1300K => 800K.
+
 ## [1.2.1] - 2024-05-27
 
 ### Changed

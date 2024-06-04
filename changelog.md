@@ -2,6 +2,14 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/), and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.2.3] - 2024-06-04
+
+### Changed
+
+- Parts wore longer.
+- Extra money for jobs.
+- Lower probability for fines.
+
 ## [1.2.2] - 2024-05-29
 
 ### Changed

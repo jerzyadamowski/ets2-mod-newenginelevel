@@ -42,24 +42,24 @@ vehicle_damage_data : .damage_data
 
 	cabin_wear:		0.0
 	chassis_wear:		0.0
-	engine_wear:		4e-7
-	transmission_wear:	4e-7
-	wheel_wear:		4e-7
+	engine_wear:		1e-6
+	transmission_wear:	1e-6
+	wheel_wear:		5e-7
 
 	cabin_wear_unfixable:		0.0
 	chassis_wear_unfixable:		0.0
-	engine_wear_unfixable:		8e-8
-	transmission_wear_unfixable:	8e-8
-	wheel_wear_unfixable:		8e-7
+	engine_wear_unfixable:		1e-7
+	transmission_wear_unfixable:	1e-7
+	wheel_wear_unfixable:		5e-6
 
 	# trailer wear per km of drive
 
 	trailer_body_wear:	0.0
 	trailer_chassis_wear:	0.0
-	trailer_wheel_wear:	4e-7
+	trailer_wheel_wear:	5e-7
 
 	trailer_body_wear_unfixable:		0.0
 	trailer_chassis_wear_unfixable:		0.0
-	trailer_wheel_wear_unfixable:		8e-7
+	trailer_wheel_wear_unfixable:		5e-6
 }
 }

@@ -97,8 +97,8 @@ economy_data : economy.data.storage
 	skill_distance[5]:	1500
 
 	fixed_revenue: 200
-	revenue_coef_per_km: 0.09 #prev: 0.45# Revenue coefficient per km used during freight market jobs.
-	cargo_market_revenue_coef_per_km: 0.1 #prev: 0.5 # Revenue coefficient per km used during cargo market jobs.
+	revenue_coef_per_km: 0.12 #Revenue coefficient per km used during freight market jobs.
+	cargo_market_revenue_coef_per_km: 0.15 #Revenue coefficient per km used during cargo market jobs.
 
 	max_eco_consumption_drop[0]: (0.2, 0.2)	# consumption decreased by 40% (or 60% if driving with trailer)
 							#  for ecodriving skill maximum
@@ -136,7 +136,7 @@ economy_data : economy.data.storage
 	reward_bonus_urgent[4]: 0.05
 	reward_bonus_urgent[5]: 0.06
 
-	reward_bonus_level: 0.05
+	reward_bonus_level: 0.06
 
 #  Experience points
 	free_roam_report_limit: 20000

@@ -2,6 +2,14 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/), and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.2.7] - 2024-06-12
+
+### Changed
+
+Lone Wolf Extreme
+- *revenue_coef_per_km*: 0.12 => 0.1
+- *cargo_market_revenue_coef_per_km*: 0.15 => 0.14
+
 ## [1.2.6] - 2024-06-12
 
 ### Changed

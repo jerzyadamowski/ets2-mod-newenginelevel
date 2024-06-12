@@ -130,7 +130,7 @@ police_data : police.data
     police_nearby_fine_rate: 1
 
     # how often can nearby police car impose a fine
-    police_nearby_offence_timer: 120.0
+    police_nearby_offence_timer: 60.0
 }
 }
 

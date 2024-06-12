@@ -2,6 +2,16 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/), and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.2.6] - 2024-06-12
+
+### Changed
+
+Lone Wolf Extreme
+- *reward_bonus_level*: 0.06 => 0.05
+- *exp_cargo_delivery*: 1.0 => 0.8
+- *exp_free_roam*: 1.0 => 0.8
+- *police_nearby_offence_timer*: 120.0 => 60.0
+
 ## [1.2.5] - 2024-06-09
 
 ### Changed

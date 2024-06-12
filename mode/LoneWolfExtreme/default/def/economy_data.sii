@@ -136,13 +136,13 @@ economy_data : economy.data.storage
 	reward_bonus_urgent[4]: 0.05
 	reward_bonus_urgent[5]: 0.06
 
-	reward_bonus_level: 0.06
+	reward_bonus_level: 0.05
 
 #  Experience points
 	free_roam_report_limit: 20000
 
-	exp_cargo_delivery: 	1.0		# per km of real world
-	exp_free_roam: 		1.0		# per km of real world
+	exp_cargo_delivery: 	0.8		# per km of real world
+	exp_free_roam: 		0.8		# per km of real world
 	exp_road_discovery:	3.0		# per km of real world
 
 //	exp_late_delivery: 	0.8		# def -40%
